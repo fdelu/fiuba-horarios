@@ -12,7 +12,7 @@ CREDITOS_CBC = 38
 
 with open(PATH_PLAN, "r", encoding="utf8") as f:
     PLAN = json.load(f)
-    PLAN = {x["codigo"]: x for x in PLAN}
+    PLAN = {x["codigo"]: x for x in PLAN["materias"]}
 
 with open(PATH_CURSOS, "r", encoding="utf8") as f:
     CURSOS = json.load(f)[PERIODO]

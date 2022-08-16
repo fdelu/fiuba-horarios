@@ -14,7 +14,7 @@ RAW_DATA = f"{DIR}/raw.txt"
 OUTPUT = f"{DIR}/data.json"
 
 
-def parse_raw():
+def parse_raw(creditos):
     with open(RAW_DATA, "r", encoding="utf8") as f:
         lines = list(f.readlines())
 
@@ -39,8 +39,11 @@ def parse_raw():
         })
 
     with open(OUTPUT, "w", encoding="utf8") as f:
-        json.dump(arr, f, ensure_ascii=False, indent=2)
+        json.dump({
+            "creditos": creditos,
+            "materias": arr
+        }, f, ensure_ascii=False, indent=2)
 
 
 if __name__ == "__main__":
-    parse_raw()
+    parse_raw(286)

@@ -7,11 +7,12 @@ DIR = os.path.dirname(os.path.realpath(__file__))
 PATH_PLAN = DIR + "/plan/data.json"
 PATH_APROBADAS = DIR + "/aprobadas.txt"
 PATH_OUTPUT = DIR + "/output.txt"
-CREDITOS_PLAN = 286
+
 
 with open(PATH_PLAN, "r", encoding="utf8") as f:
     PLAN = json.load(f)
-    PLAN = {x["codigo"]: x for x in PLAN}
+    CREDITOS_PLAN = PLAN["creditos"]
+    PLAN = {x["codigo"]: x for x in PLAN["materias"]}
 
 
 def format_materia(materia):
