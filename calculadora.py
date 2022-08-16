@@ -70,11 +70,14 @@ def _comprobar_materias(materias, lock, posibles):
             lock.release()
 
 
-def get_combinaciones_posibles(opciones, opciones_forzadas, cantidad):
-    comb_forzadas = combinations(opciones_forzadas, len(opciones_forzadas))
-    resto = set(opciones).difference(set(opciones_forzadas))
-    comb_resto = combinations(resto, cantidad - len(opciones_forzadas))
-    total = starmap(lambda x, y: (*x, *y), product(comb_forzadas, comb_resto))
+def get_combinaciones_posibles(opciones, forzadas, cantidad):
+    print(opciones)
+    resto = set(opciones).difference(set(forzadas))
+    comb_resto = combinations(resto, cantidad - len(forzadas))
+    if forzadas:
+        total = starmap(lambda x, y: (*x, *y), product(forzadas, comb_resto))
+    else:
+        total = comb_resto
     posibles = []
     lock = Lock()
     with ThreadPoolExecutor() as threadpool:
