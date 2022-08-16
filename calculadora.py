@@ -83,5 +83,4 @@ def get_combinaciones_posibles(opciones, forzadas, cantidad):
                 _comprobar_materias, materias, lock, posibles))
         wait(futures)
 
-    print(posibles)
     return posibles

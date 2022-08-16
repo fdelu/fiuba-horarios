@@ -63,6 +63,10 @@ def input_materias(mensaje):
 
 
 def guardar_output(combinaciones):
+    if len(combinaciones) == 0:
+        print("No hay combinaciones posibles :(")
+        return
+
     print(f"Escribiendo resultado a {PATH_OUTPUT}")
     with open(PATH_OUTPUT, "w", encoding="utf8") as f:
         for i, combinacion in enumerate(combinaciones):
