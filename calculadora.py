@@ -67,7 +67,7 @@ def _comprobar_materias(materias, lock, posibles):
     for cursos in product(*map(lambda x: CURSOS[x], materias)):
         if not _comprobar_cursos(cursos):
             lock.acquire()
-            posibles.append(zip(materias, cursos))
+            posibles.append(list(zip(materias, cursos)))
             lock.release()
 
 

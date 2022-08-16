@@ -63,16 +63,22 @@ def input_materias(mensaje):
     return list(map(lambda x: x.strip(), filter(len, materias)))
 
 
+def creditos(combinacion):
+    return sum(PLAN[x[0]]["creditos"] for x in combinacion)
+
+
 def guardar_output(combinaciones):
     if len(combinaciones) == 0:
         print("No hay combinaciones posibles :(")
         return
 
+    combinaciones = sorted(combinaciones, key=creditos, reverse=True)
     print(f"Se encontraron {len(combinaciones)} opciones posibles")
     print(f"Escribiendo resultado a {PATH_OUTPUT}")
     with open(PATH_OUTPUT, "w", encoding="utf8") as f:
         for i, combinacion in enumerate(combinaciones):
-            f.write(f"Opción {i+1}\n")
+            f.write(
+                f"Opción {i+1} - {creditos(combinacion)} créditos\n")
             for materia, curso in combinacion:
                 f.write(format_materia(materia) + "\n")
                 f.write(format_curso(curso))
