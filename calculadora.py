@@ -8,6 +8,7 @@ DIR = os.path.dirname(os.path.realpath(__file__))
 PATH_CURSOS = DIR + "/horarios/data.json"
 PATH_PLAN = DIR + "/plan/data.json"
 PERIODO = "2022 - 2do cuatrimestre"
+CREDITOS_CBC = 38
 
 with open(PATH_PLAN, "r", encoding="utf8") as f:
     PLAN = json.load(f)
@@ -18,7 +19,7 @@ with open(PATH_CURSOS, "r", encoding="utf8") as f:
 
 
 def get_creditos(materias):
-    creditos = 0
+    creditos = CREDITOS_CBC
     for materia in materias:
         creditos += PLAN[materia]["creditos"]
     return creditos

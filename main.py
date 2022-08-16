@@ -7,7 +7,7 @@ DIR = os.path.dirname(os.path.realpath(__file__))
 PATH_PLAN = DIR + "/plan/data.json"
 PATH_APROBADAS = DIR + "/aprobadas.txt"
 PATH_OUTPUT = DIR + "/output.txt"
-CREDITOS_PLAN = 248
+CREDITOS_PLAN = 286
 
 with open(PATH_PLAN, "r", encoding="utf8") as f:
     PLAN = json.load(f)
@@ -41,7 +41,7 @@ def resumen_disponibles():
 
     print(f"Aprobaste {len(aprobadas)} materias")
     print((f"Tenés {creditos}/{CREDITOS_PLAN} ({creditos / CREDITOS_PLAN * 100 :.2f}%) "
-           "créditos de la carrera aprobados (no cuenta CBC)\n"))
+           "créditos de la carrera aprobados\n"))
 
     if any(es_idioma(materia) for materia in aprobadas):
         print("Ya cursaste una materia electiva de idioma, asi que no podes cursar otra\n")
@@ -81,8 +81,8 @@ def main():
     print("Calculadora de materias")
     materias = resumen_disponibles()
     cantidad = int(input("\n¿Cuántas materias queres cursar? "))
-    excluir = input_materias("¿Qué materias queres excluir? ")
-    forzar = input_materias("¿Qué materias queres forzar? ")
+    excluir = input_materias("¿Qué materias queres excluir?")
+    forzar = input_materias("¿Qué materias queres forzar?")
     print("Calculando...")
     materias = set(materias).difference(set(excluir))
     combinaciones = get_combinaciones_posibles(materias, forzar, cantidad)
