@@ -13,6 +13,8 @@ DIR = os.path.dirname(os.path.realpath(__file__))
 RAW_DATA = f"{DIR}/raw.txt"
 OUTPUT = f"{DIR}/data.json"
 
+CREDITOS_PLAN = 286  # (286 = Cantidad de créditos de Ing. Informática)
+
 
 def parse_raw(creditos):
     with open(RAW_DATA, "r", encoding="utf8") as f:
@@ -22,7 +24,7 @@ def parse_raw(creditos):
     for line in lines:
         codigo = re.search(CODIGO, line)[0].replace(".", "")
         name = re.search(NOMBRE, line)[1]
-        print(name)
+        # print(name)
         credits = int(re.search(CREDITOS, line).groups()[-1])
         dependencies = re.findall(CORRELATIVAS, line)
         dependencies = [x.replace(".", "") for x in dependencies]
@@ -30,20 +32,22 @@ def parse_raw(creditos):
         min_credits = re.search(MIN_CREDITOS, line)
         min_credits = int(min_credits[1]) if min_credits else 0
 
-        arr.append({
-            "codigo": codigo,
-            "nombre": name,
-            "creditos": credits,
-            "correlativas": dependencies,
-            "min_creditos": min_credits
-        })
+        arr.append(
+            {
+                "codigo": codigo,
+                "nombre": name,
+                "creditos": credits,
+                "correlativas": dependencies,
+                "min_creditos": min_credits,
+            }
+        )
 
     with open(OUTPUT, "w", encoding="utf8") as f:
-        json.dump({
-            "creditos": creditos,
-            "materias": arr
-        }, f, ensure_ascii=False, indent=2)
+        json.dump(
+            {"creditos": creditos, "materias": arr}, f, ensure_ascii=False, indent=2
+        )
+    print(f"Se guardó el plan ({len(arr)} materias) en {OUTPUT}")
 
 
 if __name__ == "__main__":
-    parse_raw(286)
+    parse_raw(CREDITOS_PLAN)

@@ -33,4 +33,5 @@ El archivo `data.json` contiene todos los cursos del plan de estudios de Ingener
 Uso:
 
 1. Copiar y pegar desde el pdf del plan de estudios todas las materias a un archivo de texto `raw.txt` en el directorio `plan`. Asegurarse que cada materia ocupe una línea (algunas con nombre largo puede que queden en 2).
-2. Ejecutar `python3 plan/parse.py`, lo cual generará el archivo `data.json`.
+2. Actualizar la constante `CREDITOS_PLAN` en `plan/parse.py` de acuerdo a la cantidad de créditos necesaria para recibirse del plan de estudios a parsear.
+3. Ejecutar `python3 plan/parse.py`, lo cual generará el archivo `data.json`.
