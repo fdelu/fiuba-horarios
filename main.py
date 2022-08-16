@@ -66,10 +66,11 @@ def guardar_output(combinaciones):
     print(f"Escribiendo resultado a {PATH_OUTPUT}")
     with open(PATH_OUTPUT, "w", encoding="utf8") as f:
         for i, combinacion in enumerate(combinaciones):
-            f.write(f"Opción {i}\n")
+            f.write(f"Opción {i+1}\n")
             for materia, curso in combinacion:
                 f.write(format_materia(materia) + "\n")
                 f.write(format_curso(curso))
+            f.write("\n")
 
 
 def main():
