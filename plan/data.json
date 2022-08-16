@@ -891,6 +891,58 @@
       "creditos": 4,
       "correlativas": [],
       "min_creditos": 0
+    },
+    {
+      "codigo": "7566",
+      "nombre": "Manufactura Integrada por Computadora",
+      "creditos": 6,
+      "correlativas": [
+        "7565"
+      ],
+      "min_creditos": 0
+    },
+    {
+      "codigo": "7568",
+      "nombre": "Sistemas de Soporte para Celdas de Producción Flexibles",
+      "creditos": 4,
+      "correlativas": [
+        "7565",
+        "7567"
+      ],
+      "min_creditos": 0
+    },
+    {
+      "codigo": "7565",
+      "nombre": "Manufactura Integrada por Computadora",
+      "creditos": 6,
+      "correlativas": [
+        "7515",
+        "7552"
+      ],
+      "min_creditos": 0
+    },
+    {
+      "codigo": "7567",
+      "nombre": "Sistemas Automáticos de Diagnóstico y Detección de Fallas I",
+      "creditos": 6,
+      "correlativas": [
+        "7114"
+      ],
+      "min_creditos": 0
+    },
+    {
+      "codigo": "comp",
+      "nombre": "Compiladores",
+      "creditos": 6,
+      "correlativas": [],
+      "min_creditos": 0
+    },
+    {
+      "codigo": "tecn",
+      "nombre": "Tecnologías emergentes",
+      "creditos": 2,
+      "correlativas": [],
+      "min_creditos": 0
     }
   ]
 }

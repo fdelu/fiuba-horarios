@@ -95,3 +95,7 @@
 78.03 Idioma Francés (*) 4 CBC
 78.04 Idioma Italiano (*) 4 CBC
 78.05 Idioma Portugués (*) 4 CBC
+75.66 Manufactura Integrada por Computadora (CIM) II 6 96 75.65
+75.68 Sistemas de Soporte para Celdas de Producción Flexibles 4 64 75.65-75.67
+75.65 Manufactura Integrada por Computadora (CIM) I 6 96 75.15-75.52
+75.67 Sistemas Automáticos de Diagnóstico y Detección de Fallas I 6 96 71.14

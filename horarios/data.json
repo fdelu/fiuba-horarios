@@ -5758,7 +5758,7 @@
     "7540": [
       {
         "codigo": "01-Guarna",
-        "cupos": 70,
+        "cupos": 80,
         "horarios": {
           "martes": [
             {
@@ -5784,7 +5784,7 @@
       },
       {
         "codigo": "02-Azcurra",
-        "cupos": 80,
+        "cupos": 60,
         "horarios": {
           "miercoles": [
             {
@@ -5801,7 +5801,7 @@
       },
       {
         "codigo": "03-Camejo",
-        "cupos": 100,
+        "cupos": 80,
         "horarios": {
           "martes": [
             {
@@ -5919,7 +5919,7 @@
       },
       {
         "codigo": "03-Juarez",
-        "cupos": 40,
+        "cupos": 50,
         "horarios": {
           "martes": [
             {
@@ -5943,7 +5943,7 @@
       },
       {
         "codigo": "04-Mendez",
-        "cupos": 75,
+        "cupos": 50,
         "horarios": {
           "martes": [
             {
@@ -6018,18 +6018,18 @@
       },
       {
         "codigo": "02-Leveroni",
-        "cupos": 40,
+        "cupos": 50,
         "horarios": {
-          "lunes": [
+          "martes": [
             {
               "inicio": "19:00",
               "fin": "22:00"
             }
           ],
-          "jueves": [
+          "viernes": [
             {
-              "inicio": "19:00",
-              "fin": "22:00"
+              "inicio": "17:30",
+              "fin": "20:30"
             }
           ]
         },
@@ -6103,7 +6103,7 @@
     "7509": [
       {
         "codigo": "01-Villagra",
-        "cupos": 20,
+        "cupos": 40,
         "horarios": {
           "lunes": [
             {
@@ -7132,10 +7132,10 @@
         "codigo": "01-Pantaleo",
         "cupos": 20,
         "horarios": {
-          "miercoles": [
+          "lunes": [
             {
-              "inicio": "17:30",
-              "fin": "21:30"
+              "inicio": "18:30",
+              "fin": "22:30"
             }
           ]
         },
@@ -7790,14 +7790,14 @@
         "horarios": {
           "lunes": [
             {
-              "inicio": "08:00",
-              "fin": "12:00"
+              "inicio": "09:00",
+              "fin": "13:00"
             }
           ],
           "miercoles": [
             {
-              "inicio": "08:00",
-              "fin": "12:00"
+              "inicio": "09:00",
+              "fin": "13:00"
             }
           ]
         },
@@ -7894,7 +7894,6 @@
         "docentes": [
           "PAGNOLA MARCELO RUBEN",
           "DI LUOZZO NICOLAS",
-          "ALTUNA LUZ",
           "FERNANDEZ VIRGINIA VELMA"
         ]
       },
@@ -8084,7 +8083,6 @@
         },
         "docentes": [
           "FERRINI ADRIAN",
-          "FRANQUEIRO MARIA LUZ",
           "BATTOCCHIO DIEGO JAVIER",
           "SARASI MERINO FROY DENNIS"
         ]
@@ -8136,31 +8134,6 @@
           "MENDIETA JULIO ANTONIO",
           "PIÑERA EDUARDO ERNESTO",
           "MORALES COMPARATO LUIS SALOMON"
-        ]
-      }
-    ],
-    "6215": [
-      {
-        "codigo": "1",
-        "cupos": 45,
-        "horarios": {
-          "martes": [
-            {
-              "inicio": "10:00",
-              "fin": "12:00"
-            }
-          ],
-          "jueves": [
-            {
-              "inicio": "10:00",
-              "fin": "12:00"
-            }
-          ]
-        },
-        "docentes": [
-          "AGUIRRE MARIA ALEJANDRA",
-          "ROCCA JAVIER ALEJANDRO",
-          "de OTAZUA AGUSTIN FABIAN"
         ]
       }
     ],
@@ -9327,7 +9300,7 @@
           "jueves": [
             {
               "inicio": "19:00",
-              "fin": "22:00"
+              "fin": "23:00"
             }
           ]
         },
@@ -9337,23 +9310,8 @@
         ]
       },
       {
-        "codigo": "02-Clua",
-        "cupos": 10,
-        "horarios": {
-          "lunes": [
-            {
-              "inicio": "16:00",
-              "fin": "19:00"
-            }
-          ]
-        },
-        "docentes": [
-          "CLUA OSVALDO"
-        ]
-      },
-      {
         "codigo": "03-Caram",
-        "cupos": 20,
+        "cupos": 40,
         "horarios": {
           "jueves": [
             {
@@ -9366,6 +9324,21 @@
           "CARAM LEONIDAS FACUNDO",
           "SARRIS CLAUDIA MONICA"
         ]
+      },
+      {
+        "codigo": "02",
+        "cupos": 20,
+        "horarios": {
+          "miercoles": [
+            {
+              "inicio": "19:00",
+              "fin": "22:00"
+            }
+          ]
+        },
+        "docentes": [
+          "SERVETTO ARTURO CARLOS"
+        ]
       }
     ],
     "7572": [
@@ -9376,7 +9349,7 @@
           "jueves": [
             {
               "inicio": "19:00",
-              "fin": "22:00"
+              "fin": "23:00"
             }
           ]
         },
@@ -9386,23 +9359,8 @@
         ]
       },
       {
-        "codigo": "02-Clua",
-        "cupos": 10,
-        "horarios": {
-          "lunes": [
-            {
-              "inicio": "16:00",
-              "fin": "19:00"
-            }
-          ]
-        },
-        "docentes": [
-          "CLUA OSVALDO"
-        ]
-      },
-      {
         "codigo": "03-Caram",
-        "cupos": 10,
+        "cupos": 40,
         "horarios": {
           "miercoles": [
             {
@@ -9515,7 +9473,7 @@
     "7569": [
       {
         "codigo": "01-Merlino",
-        "cupos": 30,
+        "cupos": 20,
         "horarios": {
           "lunes": [
             {
@@ -9795,12 +9753,12 @@
     "7551": [
       {
         "codigo": "1-TURRI",
-        "cupos": 30,
+        "cupos": 20,
         "horarios": {
           "martes": [
             {
               "inicio": "19:00",
-              "fin": "22:00"
+              "fin": "23:00"
             }
           ]
         },
@@ -9870,6 +9828,47 @@
         },
         "docentes": [
           "FERRIGNO LEANDRO SEBASTIÁN"
+        ]
+      }
+    ],
+    "comp": [
+      {
+        "codigo": "1",
+        "cupos": 20,
+        "horarios": {
+          "lunes": [
+            {
+              "inicio": "19:00",
+              "fin": "22:00"
+            }
+          ],
+          "miercoles": [
+            {
+              "inicio": "19:00",
+              "fin": "22:00"
+            }
+          ]
+        },
+        "docentes": [
+          "MENDEZ MARIANO"
+        ]
+      }
+    ],
+    "tecn": [
+      {
+        "codigo": "1",
+        "cupos": null,
+        "horarios": {
+          "viernes": [
+            {
+              "inicio": "19:00",
+              "fin": "21:00"
+            }
+          ]
+        },
+        "docentes": [
+          "IERACHE JORGE SALVADOR",
+          "MERLINO HERNAN DANIEL"
         ]
       }
     ]
