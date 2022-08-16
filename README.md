@@ -10,7 +10,7 @@ Uso:
 
 > El periodo lectivo a utilizar se configura en la constante `PERIODO` en `calculadora.py`
 
-> La lógica para obtener las combinaciones esta en `calculadora.py`. El archivo `main.py` es simplemente una CLI de sus utilidades.
+> La lógica para obtener las combinaciones está en `calculadora.py`. El archivo `main.py` es simplemente una CLI de sus utilidades.
 
 ## Horarios
 
