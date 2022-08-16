@@ -2,21 +2,28 @@ import requests
 import os
 from parse import parse_html
 import json
+from getpass import getpass
 
-DIR = os.path.dirname(os.path.realpath(__file__))
+FILE_PATH = os.path.dirname(os.path.realpath(__file__)) + "/data.json"
+LOGIN_PAGE_TITLE = "SIU Guaraní - Acceso"
 
 
 def get_data():
     username = os.environ.get("SIU_USERNAME") or input("Usuario del SIU: ")
-    password = os.environ.get("SIU_PASSWORD") or input("Contraseña del SIU: ")
+    password = os.environ.get("SIU_PASSWORD") or getpass("Contraseña del SIU: ")
 
-    cookies = requests.post("https://guaraniautogestion.fi.uba.ar/g3w/acceso?auth=form", {
-        "usuario": username,
-        "password": password
-    }, allow_redirects=False).cookies
+    cookies = requests.post(
+        "https://guaraniautogestion.fi.uba.ar/g3w/acceso?auth=form",
+        {"usuario": username, "password": password},
+        allow_redirects=False,
+    ).cookies
 
     html = requests.get(
-        "https://guaraniautogestion.fi.uba.ar/g3w/oferta_comisiones", cookies=cookies).text
+        "https://guaraniautogestion.fi.uba.ar/g3w/oferta_comisiones", cookies=cookies
+    ).text
+
+    if LOGIN_PAGE_TITLE in html:
+        raise Exception("Usuario o contraseña incorrectos")
 
     return parse_html(html)
 
@@ -31,5 +38,6 @@ def get_materias_disponibles():
 
 
 if __name__ == "__main__":
-    with open(DIR + "/data.json", "w", encoding="utf8") as f:
+    with open(FILE_PATH, "w", encoding="utf8") as f:
         json.dump(get_data(), f, ensure_ascii=False, indent=2)
+    print(f"Horarios guardados en {FILE_PATH}")
