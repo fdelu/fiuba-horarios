@@ -68,6 +68,7 @@ def guardar_output(combinaciones):
         print("No hay combinaciones posibles :(")
         return
 
+    print(f"Se encontraron {len(combinaciones)} opciones posibles")
     print(f"Escribiendo resultado a {PATH_OUTPUT}")
     with open(PATH_OUTPUT, "w", encoding="utf8") as f:
         for i, combinacion in enumerate(combinaciones):
