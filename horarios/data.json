@@ -2,7 +2,6 @@
   "2022 - 1er Cuatrimestre": {
     "7544": [
       {
-        "materia": "7544",
         "codigo": "01-Fontela",
         "cupos": 60,
         "horarios": {
@@ -23,7 +22,6 @@
     ],
     "7546": [
       {
-        "materia": "7546",
         "codigo": "01-Alvaro",
         "cupos": 50,
         "horarios": {
@@ -42,7 +40,6 @@
     ],
     "6108": [
       {
-        "materia": "6108",
         "codigo": "10",
         "cupos": 34,
         "horarios": {
@@ -65,7 +62,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "13",
         "cupos": 45,
         "horarios": {
@@ -90,7 +86,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "15A",
         "cupos": 28,
         "horarios": {
@@ -114,7 +109,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "15B",
         "cupos": 28,
         "horarios": {
@@ -138,7 +132,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "17",
         "cupos": 34,
         "horarios": {
@@ -162,7 +155,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "19A",
         "cupos": 28,
         "horarios": {
@@ -186,7 +178,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "19B",
         "cupos": 28,
         "horarios": {
@@ -210,7 +201,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "1A",
         "cupos": 28,
         "horarios": {
@@ -234,7 +224,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "1B",
         "cupos": 28,
         "horarios": {
@@ -258,7 +247,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "23A",
         "cupos": 28,
         "horarios": {
@@ -282,7 +270,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "23B",
         "cupos": 28,
         "horarios": {
@@ -306,7 +293,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "ESPECIAL-",
         "cupos": 34,
         "horarios": {
@@ -332,7 +318,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "25",
         "cupos": 34,
         "horarios": {
@@ -356,7 +341,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "2A",
         "cupos": 28,
         "horarios": {
@@ -380,7 +364,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "2B",
         "cupos": 28,
         "horarios": {
@@ -404,7 +387,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "3",
         "cupos": 33,
         "horarios": {
@@ -428,7 +410,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "4A",
         "cupos": 28,
         "horarios": {
@@ -451,7 +432,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "4B",
         "cupos": 28,
         "horarios": {
@@ -475,7 +455,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "6A",
         "cupos": 28,
         "horarios": {
@@ -498,7 +477,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "6B",
         "cupos": 28,
         "horarios": {
@@ -522,7 +500,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "7A",
         "cupos": 32,
         "horarios": {
@@ -546,7 +523,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "7B",
         "cupos": 33,
         "horarios": {
@@ -570,7 +546,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "9",
         "cupos": 33,
         "horarios": {
@@ -594,7 +569,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "11",
         "cupos": 33,
         "horarios": {
@@ -620,7 +594,6 @@
     ],
     "7540": [
       {
-        "materia": "7540",
         "codigo": "01-Guarna",
         "cupos": 70,
         "horarios": {
@@ -647,7 +620,6 @@
         ]
       },
       {
-        "materia": "7540",
         "codigo": "02-Azcurra",
         "cupos": 80,
         "horarios": {
@@ -665,7 +637,6 @@
         ]
       },
       {
-        "materia": "7540",
         "codigo": "03-Camejo",
         "cupos": 100,
         "horarios": {
@@ -688,7 +659,6 @@
         ]
       },
       {
-        "materia": "7540",
         "codigo": "04-Essaya",
         "cupos": 60,
         "horarios": {
@@ -713,7 +683,6 @@
         ]
       },
       {
-        "materia": "7540",
         "codigo": "05-Costa",
         "cupos": 30,
         "horarios": {
@@ -738,7 +707,6 @@
     ],
     "7541": [
       {
-        "materia": "7541",
         "codigo": "01-Calvo",
         "cupos": 40,
         "horarios": {
@@ -762,7 +730,6 @@
         ]
       },
       {
-        "materia": "7541",
         "codigo": "02-Buchwald",
         "cupos": 80,
         "horarios": {
@@ -788,7 +755,6 @@
         ]
       },
       {
-        "materia": "7541",
         "codigo": "03-Juarez",
         "cupos": 40,
         "horarios": {
@@ -813,7 +779,6 @@
         ]
       },
       {
-        "materia": "7541",
         "codigo": "04-Mendez",
         "cupos": 75,
         "horarios": {
@@ -837,7 +802,6 @@
         ]
       },
       {
-        "materia": "7541",
         "codigo": "05-Calvo",
         "cupos": 40,
         "horarios": {
@@ -863,7 +827,6 @@
     ],
     "7507": [
       {
-        "materia": "7507",
         "codigo": "01-Suarez",
         "cupos": 100,
         "horarios": {
@@ -891,7 +854,6 @@
         ]
       },
       {
-        "materia": "7507",
         "codigo": "02-Leveroni",
         "cupos": 40,
         "horarios": {
@@ -916,7 +878,6 @@
     ],
     "6606": [
       {
-        "materia": "6606",
         "codigo": "1",
         "cupos": 10,
         "horarios": {
@@ -938,7 +899,6 @@
         ]
       },
       {
-        "materia": "6606",
         "codigo": "2",
         "cupos": 10,
         "horarios": {
@@ -973,7 +933,6 @@
     ],
     "7509": [
       {
-        "materia": "7509",
         "codigo": "01-Villagra",
         "cupos": 40,
         "horarios": {
@@ -998,7 +957,6 @@
         ]
       },
       {
-        "materia": "7509",
         "codigo": "02-Gonzalez",
         "cupos": 40,
         "horarios": {
@@ -1023,7 +981,6 @@
     ],
     "6103": [
       {
-        "materia": "6103",
         "codigo": "11A",
         "cupos": 28,
         "horarios": {
@@ -1047,7 +1004,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "11B",
         "cupos": 28,
         "horarios": {
@@ -1071,7 +1027,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "12A",
         "cupos": 29,
         "horarios": {
@@ -1095,7 +1050,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "12B",
         "cupos": 29,
         "horarios": {
@@ -1119,7 +1073,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "14A",
         "cupos": 29,
         "horarios": {
@@ -1143,7 +1096,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "14B",
         "cupos": 29,
         "horarios": {
@@ -1167,7 +1119,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "15A",
         "cupos": 29,
         "horarios": {
@@ -1191,7 +1142,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "15B",
         "cupos": 29,
         "horarios": {
@@ -1215,7 +1165,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "20A",
         "cupos": 29,
         "horarios": {
@@ -1239,7 +1188,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "20B",
         "cupos": 29,
         "horarios": {
@@ -1263,7 +1211,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "22A",
         "cupos": 29,
         "horarios": {
@@ -1287,7 +1234,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "2A",
         "cupos": 29,
         "horarios": {
@@ -1311,7 +1257,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "2B",
         "cupos": 29,
         "horarios": {
@@ -1335,7 +1280,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "3",
         "cupos": 46,
         "horarios": {
@@ -1360,7 +1304,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "4A",
         "cupos": 29,
         "horarios": {
@@ -1384,7 +1327,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "4B",
         "cupos": 29,
         "horarios": {
@@ -1408,7 +1350,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "5A",
         "cupos": 29,
         "horarios": {
@@ -1433,7 +1374,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "5B",
         "cupos": 29,
         "horarios": {
@@ -1457,7 +1397,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "6A",
         "cupos": 29,
         "horarios": {
@@ -1480,7 +1419,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "6B",
         "cupos": 29,
         "horarios": {
@@ -1504,7 +1442,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "8",
         "cupos": 34,
         "horarios": {
@@ -1529,7 +1466,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "9A",
         "cupos": 29,
         "horarios": {
@@ -1553,7 +1489,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "9B",
         "cupos": 29,
         "horarios": {
@@ -1577,7 +1512,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "1",
         "cupos": 46,
         "horarios": {
@@ -1602,7 +1536,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "22B",
         "cupos": 29,
         "horarios": {
@@ -1628,7 +1561,6 @@
     ],
     "6110": [
       {
-        "materia": "6110",
         "codigo": "2",
         "cupos": 33,
         "horarios": {
@@ -1651,7 +1583,6 @@
         ]
       },
       {
-        "materia": "6110",
         "codigo": "3",
         "cupos": 33,
         "horarios": {
@@ -1675,7 +1606,6 @@
         ]
       },
       {
-        "materia": "6110",
         "codigo": "4",
         "cupos": 33,
         "horarios": {
@@ -1699,7 +1629,6 @@
         ]
       },
       {
-        "materia": "6110",
         "codigo": "5",
         "cupos": 33,
         "horarios": {
@@ -1725,7 +1654,6 @@
     ],
     "7512": [
       {
-        "materia": "7512",
         "codigo": "01-Menendez",
         "cupos": 40,
         "horarios": {
@@ -1749,7 +1677,6 @@
         ]
       },
       {
-        "materia": "7512",
         "codigo": "02-Tarela",
         "cupos": 60,
         "horarios": {
@@ -1774,7 +1701,6 @@
         ]
       },
       {
-        "materia": "7512",
         "codigo": "03-Griggio",
         "cupos": 35,
         "horarios": {
@@ -1798,7 +1724,6 @@
         ]
       },
       {
-        "materia": "7512",
         "codigo": "04-Schwarz",
         "cupos": 30,
         "horarios": {
@@ -1823,7 +1748,6 @@
         ]
       },
       {
-        "materia": "7512",
         "codigo": "05-Sassano",
         "cupos": 55,
         "horarios": {
@@ -1849,7 +1773,6 @@
         ]
       },
       {
-        "materia": "7512",
         "codigo": "06-Rodriguez",
         "cupos": 15,
         "horarios": {
@@ -1872,7 +1795,6 @@
         ]
       },
       {
-        "materia": "7512",
         "codigo": "07-Cavaliere",
         "cupos": 10,
         "horarios": {
@@ -1898,7 +1820,6 @@
         ]
       },
       {
-        "materia": "7512",
         "codigo": "08-Cavaliere",
         "cupos": 10,
         "horarios": {
@@ -1925,7 +1846,6 @@
     ],
     "7141": [
       {
-        "materia": "7141",
         "codigo": "1",
         "cupos": 10,
         "horarios": {
@@ -1950,7 +1870,6 @@
     ],
     "7573": [
       {
-        "materia": "7573",
         "codigo": "01-Calonico",
         "cupos": 45,
         "horarios": {
@@ -1969,7 +1888,6 @@
     ],
     "6626": [
       {
-        "materia": "6626",
         "codigo": "1",
         "cupos": 5,
         "horarios": {
@@ -1993,7 +1911,6 @@
     ],
     "7515": [
       {
-        "materia": "7515",
         "codigo": "01-Beiro",
         "cupos": 70,
         "horarios": {
@@ -2020,7 +1937,6 @@
     ],
     "7548": [
       {
-        "materia": "7548",
         "codigo": "01-Pantaleo",
         "cupos": 20,
         "horarios": {
@@ -2038,7 +1954,6 @@
     ],
     "6669": [
       {
-        "materia": "6669",
         "codigo": "1",
         "cupos": 30,
         "horarios": {
@@ -2063,7 +1978,6 @@
     ],
     "6405": [
       {
-        "materia": "6405",
         "codigo": "1",
         "cupos": 5,
         "horarios": {
@@ -2087,7 +2001,6 @@
         ]
       },
       {
-        "materia": "6405",
         "codigo": "2",
         "cupos": 5,
         "horarios": {
@@ -2111,7 +2024,6 @@
         ]
       },
       {
-        "materia": "6405",
         "codigo": "3",
         "cupos": 5,
         "horarios": {
@@ -2136,7 +2048,6 @@
         ]
       },
       {
-        "materia": "6405",
         "codigo": "4",
         "cupos": 5,
         "horarios": {
@@ -2160,7 +2071,6 @@
         ]
       },
       {
-        "materia": "6405",
         "codigo": "5",
         "cupos": 5,
         "horarios": {
@@ -2184,7 +2094,6 @@
         ]
       },
       {
-        "materia": "6405",
         "codigo": "6",
         "cupos": 5,
         "horarios": {
@@ -2210,7 +2119,6 @@
     ],
     "7112": [
       {
-        "materia": "7112",
         "codigo": "1",
         "cupos": 130,
         "horarios": {
@@ -2232,7 +2140,6 @@
     ],
     "6670": [
       {
-        "materia": "6670",
         "codigo": "1",
         "cupos": 30,
         "horarios": {
@@ -2256,7 +2163,6 @@
         ]
       },
       {
-        "materia": "6670",
         "codigo": "2",
         "cupos": 30,
         "horarios": {
@@ -2280,7 +2186,6 @@
         ]
       },
       {
-        "materia": "6670",
         "codigo": "3",
         "cupos": 30,
         "horarios": {
@@ -2307,7 +2212,6 @@
     ],
     "7118": [
       {
-        "materia": "7118",
         "codigo": "1",
         "cupos": 50,
         "horarios": {
@@ -2326,7 +2230,6 @@
     ],
     "6201": [
       {
-        "materia": "6201",
         "codigo": "01",
         "cupos": 40,
         "horarios": {
@@ -2351,7 +2254,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "02",
         "cupos": 40,
         "horarios": {
@@ -2377,7 +2279,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "03",
         "cupos": 40,
         "horarios": {
@@ -2403,7 +2304,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "05",
         "cupos": 40,
         "horarios": {
@@ -2427,7 +2327,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "06",
         "cupos": 40,
         "horarios": {
@@ -2453,7 +2352,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "07",
         "cupos": 40,
         "horarios": {
@@ -2479,7 +2377,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "08",
         "cupos": 40,
         "horarios": {
@@ -2504,7 +2401,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "09",
         "cupos": 40,
         "horarios": {
@@ -2530,7 +2426,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "10",
         "cupos": 40,
         "horarios": {
@@ -2556,7 +2451,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "11",
         "cupos": 40,
         "horarios": {
@@ -2582,7 +2476,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "12",
         "cupos": 40,
         "horarios": {
@@ -2608,7 +2501,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "13",
         "cupos": 40,
         "horarios": {
@@ -2634,7 +2526,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "14",
         "cupos": 40,
         "horarios": {
@@ -2660,7 +2551,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "15",
         "cupos": 40,
         "horarios": {
@@ -2685,7 +2575,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "16",
         "cupos": 40,
         "horarios": {
@@ -2710,7 +2599,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "17",
         "cupos": 40,
         "horarios": {
@@ -2736,7 +2624,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "SP1",
         "cupos": 40,
         "horarios": {
@@ -2755,7 +2642,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "SP2",
         "cupos": 40,
         "horarios": {
@@ -2776,7 +2662,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "04",
         "cupos": 40,
         "horarios": {
@@ -2804,7 +2689,6 @@
     ],
     "6203": [
       {
-        "materia": "6203",
         "codigo": "01",
         "cupos": 20,
         "horarios": {
@@ -2829,7 +2713,6 @@
         ]
       },
       {
-        "materia": "6203",
         "codigo": "02",
         "cupos": 20,
         "horarios": {
@@ -2854,7 +2737,6 @@
         ]
       },
       {
-        "materia": "6203",
         "codigo": "03",
         "cupos": 20,
         "horarios": {
@@ -2879,7 +2761,6 @@
         ]
       },
       {
-        "materia": "6203",
         "codigo": "04",
         "cupos": 20,
         "horarios": {
@@ -2904,7 +2785,6 @@
         ]
       },
       {
-        "materia": "6203",
         "codigo": "05",
         "cupos": 20,
         "horarios": {
@@ -2930,7 +2810,6 @@
         ]
       },
       {
-        "materia": "6203",
         "codigo": "06",
         "cupos": 20,
         "horarios": {
@@ -2955,7 +2834,6 @@
         ]
       },
       {
-        "materia": "6203",
         "codigo": "08",
         "cupos": 20,
         "horarios": {
@@ -2981,7 +2859,6 @@
         ]
       },
       {
-        "materia": "6203",
         "codigo": "09",
         "cupos": 20,
         "horarios": {
@@ -3007,7 +2884,6 @@
         ]
       },
       {
-        "materia": "6203",
         "codigo": "07",
         "cupos": 20,
         "horarios": {
@@ -3033,7 +2909,6 @@
         ]
       },
       {
-        "materia": "6203",
         "codigo": "10",
         "cupos": 20,
         "horarios": {
@@ -3059,7 +2934,6 @@
         ]
       },
       {
-        "materia": "6203",
         "codigo": "11",
         "cupos": 20,
         "horarios": {
@@ -3088,7 +2962,6 @@
     ],
     "6215": [
       {
-        "materia": "6215",
         "codigo": "1",
         "cupos": 45,
         "horarios": {
@@ -3114,7 +2987,6 @@
     ],
     "6761": [
       {
-        "materia": "6761",
         "codigo": "1",
         "cupos": 20,
         "horarios": {
@@ -3139,7 +3011,6 @@
     ],
     "7802": [
       {
-        "materia": "7802",
         "codigo": "01",
         "cupos": null,
         "horarios": {
@@ -3158,7 +3029,6 @@
     ],
     "7803": [
       {
-        "materia": "7803",
         "codigo": "01",
         "cupos": 25,
         "horarios": {
@@ -3176,7 +3046,6 @@
     ],
     "7801": [
       {
-        "materia": "7801",
         "codigo": "01",
         "cupos": 30,
         "horarios": {
@@ -3194,7 +3063,6 @@
         ]
       },
       {
-        "materia": "7801",
         "codigo": "02",
         "cupos": 33,
         "horarios": {
@@ -3212,7 +3080,6 @@
         ]
       },
       {
-        "materia": "7801",
         "codigo": "03",
         "cupos": 30,
         "horarios": {
@@ -3230,7 +3097,6 @@
         ]
       },
       {
-        "materia": "7801",
         "codigo": "04",
         "cupos": 30,
         "horarios": {
@@ -3248,7 +3114,6 @@
         ]
       },
       {
-        "materia": "7801",
         "codigo": "05",
         "cupos": 30,
         "horarios": {
@@ -3266,7 +3131,6 @@
         ]
       },
       {
-        "materia": "7801",
         "codigo": "06",
         "cupos": 33,
         "horarios": {
@@ -3283,7 +3147,6 @@
         ]
       },
       {
-        "materia": "7801",
         "codigo": "07",
         "cupos": 33,
         "horarios": {
@@ -3301,7 +3164,6 @@
         ]
       },
       {
-        "materia": "7801",
         "codigo": "09",
         "cupos": 33,
         "horarios": {
@@ -3319,7 +3181,6 @@
         ]
       },
       {
-        "materia": "7801",
         "codigo": "10",
         "cupos": 33,
         "horarios": {
@@ -3337,7 +3198,6 @@
         ]
       },
       {
-        "materia": "7801",
         "codigo": "08",
         "cupos": 33,
         "horarios": {
@@ -3357,7 +3217,6 @@
     ],
     "7804": [
       {
-        "materia": "7804",
         "codigo": "01",
         "cupos": 25,
         "horarios": {
@@ -3375,7 +3234,6 @@
     ],
     "7113": [
       {
-        "materia": "7113",
         "codigo": "1",
         "cupos": 50,
         "horarios": {
@@ -3394,7 +3252,6 @@
     ],
     "7146": [
       {
-        "materia": "7146",
         "codigo": "1",
         "cupos": 100,
         "horarios": {
@@ -3414,7 +3271,6 @@
     ],
     "7543": [
       {
-        "materia": "7543",
         "codigo": "01-Alvarez",
         "cupos": 80,
         "horarios": {
@@ -3439,7 +3295,6 @@
     ],
     "7550": [
       {
-        "materia": "7550",
         "codigo": "01-Ochoa",
         "cupos": 40,
         "horarios": {
@@ -3464,7 +3319,6 @@
     ],
     "6602": [
       {
-        "materia": "6602",
         "codigo": "1",
         "cupos": 16,
         "horarios": {
@@ -3483,7 +3337,6 @@
         ]
       },
       {
-        "materia": "6602",
         "codigo": "2",
         "cupos": 8,
         "horarios": {
@@ -3506,7 +3359,6 @@
         ]
       },
       {
-        "materia": "6602",
         "codigo": "3",
         "cupos": 8,
         "horarios": {
@@ -3529,7 +3381,6 @@
         ]
       },
       {
-        "materia": "6602",
         "codigo": "4",
         "cupos": 16,
         "horarios": {
@@ -3555,7 +3406,6 @@
     ],
     "6609": [
       {
-        "materia": "6609",
         "codigo": "1",
         "cupos": 5,
         "horarios": {
@@ -3580,7 +3430,6 @@
         ]
       },
       {
-        "materia": "6609",
         "codigo": "2",
         "cupos": 5,
         "horarios": {
@@ -3605,7 +3454,6 @@
         ]
       },
       {
-        "materia": "6609",
         "codigo": "3",
         "cupos": 5,
         "horarios": {
@@ -3631,7 +3479,6 @@
     ],
     "7140": [
       {
-        "materia": "7140",
         "codigo": "1",
         "cupos": 40,
         "horarios": {
@@ -3652,7 +3499,6 @@
     ],
     "7514": [
       {
-        "materia": "7514",
         "codigo": "01-Corsi",
         "cupos": 50,
         "horarios": {
@@ -3677,7 +3523,6 @@
     ],
     "7565": [
       {
-        "materia": "7565",
         "codigo": "01-Ierache",
         "cupos": 30,
         "horarios": {
@@ -3703,7 +3548,6 @@
     ],
     "7566": [
       {
-        "materia": "7566",
         "codigo": "1-Ierache",
         "cupos": 30,
         "horarios": {
@@ -3729,7 +3573,6 @@
     ],
     "6107": [
       {
-        "materia": "6107",
         "codigo": "1",
         "cupos": 67,
         "horarios": {
@@ -3754,7 +3597,6 @@
         ]
       },
       {
-        "materia": "6107",
         "codigo": "2",
         "cupos": 33,
         "horarios": {
@@ -3777,7 +3619,6 @@
         ]
       },
       {
-        "materia": "6107",
         "codigo": "3",
         "cupos": 50,
         "horarios": {
@@ -3803,7 +3644,6 @@
     ],
     "7201": [
       {
-        "materia": "7201",
         "codigo": "1",
         "cupos": 10,
         "horarios": {
@@ -3822,7 +3662,6 @@
         ]
       },
       {
-        "materia": "7201",
         "codigo": "2",
         "cupos": 10,
         "horarios": {
@@ -3843,7 +3682,6 @@
     ],
     "7114": [
       {
-        "materia": "7114",
         "codigo": "2",
         "cupos": 25,
         "horarios": {
@@ -3867,7 +3705,6 @@
         ]
       },
       {
-        "materia": "7114",
         "codigo": "3",
         "cupos": 30,
         "horarios": {
@@ -3892,7 +3729,6 @@
         ]
       },
       {
-        "materia": "7114",
         "codigo": "4",
         "cupos": 30,
         "horarios": {
@@ -3920,7 +3756,6 @@
     ],
     "7115": [
       {
-        "materia": "7115",
         "codigo": "1",
         "cupos": 70,
         "horarios": {
@@ -3940,7 +3775,6 @@
     ],
     "7120": [
       {
-        "materia": "7120",
         "codigo": "1",
         "cupos": 10,
         "horarios": {
@@ -3964,7 +3798,6 @@
     ],
     "6620": [
       {
-        "materia": "6620",
         "codigo": "1",
         "cupos": 30,
         "horarios": {
@@ -3988,7 +3821,6 @@
         ]
       },
       {
-        "materia": "6620",
         "codigo": "2",
         "cupos": 30,
         "horarios": {
@@ -4014,7 +3846,6 @@
     ],
     "7506": [
       {
-        "materia": "7506",
         "codigo": "01-Argerich",
         "cupos": 65,
         "horarios": {
@@ -4039,7 +3870,6 @@
         ]
       },
       {
-        "materia": "7506",
         "codigo": "02-Rodriguez",
         "cupos": 40,
         "horarios": {
@@ -4063,7 +3893,6 @@
     ],
     "7556": [
       {
-        "materia": "7556",
         "codigo": "01-",
         "cupos": 40,
         "horarios": {
@@ -4088,7 +3917,6 @@
     ],
     "6109": [
       {
-        "materia": "6109",
         "codigo": "21",
         "cupos": 45,
         "horarios": {
@@ -4112,7 +3940,6 @@
         ]
       },
       {
-        "materia": "6109",
         "codigo": "22",
         "cupos": 45,
         "horarios": {
@@ -4136,7 +3963,6 @@
         ]
       },
       {
-        "materia": "6109",
         "codigo": "27",
         "cupos": 45,
         "horarios": {
@@ -4160,7 +3986,6 @@
         ]
       },
       {
-        "materia": "6109",
         "codigo": "29",
         "cupos": 45,
         "horarios": {
@@ -4186,7 +4011,6 @@
     ],
     "6646": [
       {
-        "materia": "6646",
         "codigo": "1",
         "cupos": 5,
         "horarios": {
@@ -4211,7 +4035,6 @@
     ],
     "6675": [
       {
-        "materia": "6675",
         "codigo": "1",
         "cupos": null,
         "horarios": {
@@ -4235,7 +4058,6 @@
         ]
       },
       {
-        "materia": "6675",
         "codigo": "2",
         "cupos": null,
         "horarios": {
@@ -4261,7 +4083,6 @@
     ],
     "6301": [
       {
-        "materia": "6301",
         "codigo": "01",
         "cupos": 20,
         "horarios": {
@@ -4287,7 +4108,6 @@
         ]
       },
       {
-        "materia": "6301",
         "codigo": "02",
         "cupos": 20,
         "horarios": {
@@ -4312,7 +4132,6 @@
         ]
       },
       {
-        "materia": "6301",
         "codigo": "03",
         "cupos": 20,
         "horarios": {
@@ -4338,7 +4157,6 @@
         ]
       },
       {
-        "materia": "6301",
         "codigo": "04",
         "cupos": 20,
         "horarios": {
@@ -4362,7 +4180,6 @@
         ]
       },
       {
-        "materia": "6301",
         "codigo": "05",
         "cupos": 20,
         "horarios": {
@@ -4387,7 +4204,6 @@
         ]
       },
       {
-        "materia": "6301",
         "codigo": "07",
         "cupos": 20,
         "horarios": {
@@ -4412,7 +4228,6 @@
         ]
       },
       {
-        "materia": "6301",
         "codigo": "08",
         "cupos": 20,
         "horarios": {
@@ -4438,7 +4253,6 @@
         ]
       },
       {
-        "materia": "6301",
         "codigo": "09",
         "cupos": 20,
         "horarios": {
@@ -4462,7 +4276,6 @@
         ]
       },
       {
-        "materia": "6301",
         "codigo": "11",
         "cupos": 20,
         "horarios": {
@@ -4488,7 +4301,6 @@
         ]
       },
       {
-        "materia": "6301",
         "codigo": "12",
         "cupos": 20,
         "horarios": {
@@ -4514,7 +4326,6 @@
         ]
       },
       {
-        "materia": "6301",
         "codigo": "13",
         "cupos": 20,
         "horarios": {
@@ -4540,7 +4351,6 @@
         ]
       },
       {
-        "materia": "6301",
         "codigo": "14",
         "cupos": 20,
         "horarios": {
@@ -4568,7 +4378,6 @@
     ],
     "7144": [
       {
-        "materia": "7144",
         "codigo": "1",
         "cupos": 25,
         "horarios": {
@@ -4590,7 +4399,6 @@
     ],
     "6663": [
       {
-        "materia": "6663",
         "codigo": "1",
         "cupos": 5,
         "horarios": {
@@ -4610,7 +4418,6 @@
     ],
     "6632": [
       {
-        "materia": "6632",
         "codigo": "1",
         "cupos": 5,
         "horarios": {
@@ -4636,7 +4443,6 @@
     ],
     "7571": [
       {
-        "materia": "7571",
         "codigo": "01-Cosso",
         "cupos": 30,
         "horarios": {
@@ -4653,7 +4459,6 @@
         ]
       },
       {
-        "materia": "7571",
         "codigo": "02-Clua",
         "cupos": 10,
         "horarios": {
@@ -4669,7 +4474,6 @@
         ]
       },
       {
-        "materia": "7571",
         "codigo": "03-Caram",
         "cupos": 20,
         "horarios": {
@@ -4694,7 +4498,6 @@
     ],
     "7572": [
       {
-        "materia": "7572",
         "codigo": "02-Clua",
         "cupos": 10,
         "horarios": {
@@ -4710,7 +4513,6 @@
         ]
       },
       {
-        "materia": "7572",
         "codigo": "01-Cosso",
         "cupos": 10,
         "horarios": {
@@ -4727,7 +4529,6 @@
         ]
       },
       {
-        "materia": "7572",
         "codigo": "03-Caram",
         "cupos": 10,
         "horarios": {
@@ -4752,7 +4553,6 @@
     ],
     "6674": [
       {
-        "materia": "6674",
         "codigo": "1",
         "cupos": 5,
         "horarios": {
@@ -4776,7 +4576,6 @@
         ]
       },
       {
-        "materia": "6674",
         "codigo": "2",
         "cupos": 5,
         "horarios": {
@@ -4800,7 +4599,6 @@
         ]
       },
       {
-        "materia": "6674",
         "codigo": "3",
         "cupos": 5,
         "horarios": {
@@ -4826,7 +4624,6 @@
     ],
     "7526": [
       {
-        "materia": "7526",
         "codigo": "01-Caiafa",
         "cupos": 35,
         "horarios": {
@@ -4852,7 +4649,6 @@
     ],
     "7567": [
       {
-        "materia": "7567",
         "codigo": "01-Merlino",
         "cupos": 40,
         "horarios": {
@@ -4870,7 +4666,6 @@
     ],
     "7570": [
       {
-        "materia": "7570",
         "codigo": "01-Merlino",
         "cupos": 60,
         "horarios": {
@@ -4888,7 +4683,6 @@
     ],
     "6649": [
       {
-        "materia": "6649",
         "codigo": "1",
         "cupos": null,
         "horarios": {
@@ -4914,7 +4708,6 @@
     ],
     "6617": [
       {
-        "materia": "6617",
         "codigo": "1",
         "cupos": 5,
         "horarios": {
@@ -4937,7 +4730,6 @@
         ]
       },
       {
-        "materia": "6617",
         "codigo": "2",
         "cupos": 5,
         "horarios": {
@@ -4956,7 +4748,6 @@
     ],
     "7574": [
       {
-        "materia": "7574",
         "codigo": "01-Roca",
         "cupos": 20,
         "horarios": {
@@ -4981,7 +4772,6 @@
     ],
     "6671": [
       {
-        "materia": "6671",
         "codigo": "1",
         "cupos": 10,
         "horarios": {
@@ -5006,7 +4796,6 @@
     ],
     "7508": [
       {
-        "materia": "7508",
         "codigo": "01-Mendez",
         "cupos": 60,
         "horarios": {
@@ -5033,7 +4822,6 @@
     ],
     "7545": [
       {
-        "materia": "7545",
         "codigo": "01-Piñeiro",
         "cupos": 50,
         "horarios": {
@@ -5058,7 +4846,6 @@
     ],
     "7547": [
       {
-        "materia": "7547",
         "codigo": "01-Degiovannini",
         "cupos": 60,
         "horarios": {
@@ -5079,7 +4866,6 @@
     ],
     "7542": [
       {
-        "materia": "7542",
         "codigo": "01-Veiga",
         "cupos": 60,
         "horarios": {
@@ -5098,7 +4884,6 @@
         ]
       },
       {
-        "materia": "7542",
         "codigo": "02-Deymonnaz",
         "cupos": 60,
         "horarios": {
@@ -5117,7 +4902,6 @@
     ],
     "7552": [
       {
-        "materia": "7552",
         "codigo": "01-Calonico",
         "cupos": 50,
         "horarios": {
@@ -5136,7 +4920,6 @@
     ],
     "7561": [
       {
-        "materia": "7561",
         "codigo": "1-Hamelin",
         "cupos": 10,
         "horarios": {
@@ -5160,7 +4943,6 @@
     ],
     "6635": [
       {
-        "materia": "6635",
         "codigo": "1",
         "cupos": 5,
         "horarios": {
@@ -5185,7 +4967,6 @@
     ],
     "7510": [
       {
-        "materia": "7510",
         "codigo": "01-Pantaleo",
         "cupos": 60,
         "horarios": {
@@ -5209,7 +4990,6 @@
         ]
       },
       {
-        "materia": "7510",
         "codigo": "02-Paez",
         "cupos": 10,
         "horarios": {
@@ -5234,7 +5014,6 @@
     ],
     "7551": [
       {
-        "materia": "7551",
         "codigo": "1-Turri",
         "cupos": 30,
         "horarios": {
@@ -5252,7 +5031,6 @@
     ],
     "7559": [
       {
-        "materia": "7559",
         "codigo": "01-Deymonnaz",
         "cupos": 20,
         "horarios": {
@@ -5277,7 +5055,6 @@
     ],
     "7529": [
       {
-        "materia": "7529",
         "codigo": "01-Podberezski",
         "cupos": 40,
         "horarios": {
@@ -5302,7 +5079,6 @@
     ],
     "7530": [
       {
-        "materia": "7530",
         "codigo": "01-Buchwald",
         "cupos": 20,
         "horarios": {
@@ -5320,7 +5096,6 @@
     ],
     "6618": [
       {
-        "materia": "6618",
         "codigo": "1",
         "cupos": 5,
         "horarios": {
@@ -5347,7 +5122,6 @@
     ],
     "6624": [
       {
-        "materia": "6624",
         "codigo": "1",
         "cupos": 5,
         "horarios": {
@@ -5372,7 +5146,6 @@
     ],
     "7531": [
       {
-        "materia": "7531",
         "codigo": "01-Ferrigno",
         "cupos": 10,
         "horarios": {
@@ -5392,7 +5165,6 @@
   "2022 - 2do cuatrimestre": {
     "7544": [
       {
-        "materia": "7544",
         "codigo": "01-Fontela",
         "cupos": 60,
         "horarios": {
@@ -5413,7 +5185,6 @@
     ],
     "7546": [
       {
-        "materia": "7546",
         "codigo": "01-Alvaro",
         "cupos": 50,
         "horarios": {
@@ -5432,7 +5203,6 @@
     ],
     "6108": [
       {
-        "materia": "6108",
         "codigo": "3A",
         "cupos": 26,
         "horarios": {
@@ -5456,7 +5226,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "13A",
         "cupos": 26,
         "horarios": {
@@ -5480,7 +5249,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "15A",
         "cupos": 26,
         "horarios": {
@@ -5504,7 +5272,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "15B",
         "cupos": 27,
         "horarios": {
@@ -5528,7 +5295,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "17",
         "cupos": 34,
         "horarios": {
@@ -5552,7 +5318,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "19A",
         "cupos": 26,
         "horarios": {
@@ -5576,7 +5341,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "19B",
         "cupos": 27,
         "horarios": {
@@ -5600,7 +5364,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "1A",
         "cupos": 31,
         "horarios": {
@@ -5624,7 +5387,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "1B",
         "cupos": 32,
         "horarios": {
@@ -5649,7 +5411,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "23A",
         "cupos": 26,
         "horarios": {
@@ -5673,7 +5434,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "23B",
         "cupos": 27,
         "horarios": {
@@ -5697,7 +5457,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "25",
         "cupos": 34,
         "horarios": {
@@ -5721,7 +5480,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "2A",
         "cupos": 26,
         "horarios": {
@@ -5745,7 +5503,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "2B",
         "cupos": 27,
         "horarios": {
@@ -5769,7 +5526,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "3B",
         "cupos": 27,
         "horarios": {
@@ -5793,7 +5549,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "4A",
         "cupos": 26,
         "horarios": {
@@ -5817,7 +5572,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "4B",
         "cupos": 27,
         "horarios": {
@@ -5841,7 +5595,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "6A",
         "cupos": 26,
         "horarios": {
@@ -5864,7 +5617,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "6B",
         "cupos": 27,
         "horarios": {
@@ -5888,7 +5640,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "7A",
         "cupos": 32,
         "horarios": {
@@ -5912,7 +5663,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "7B",
         "cupos": 33,
         "horarios": {
@@ -5936,7 +5686,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "9",
         "cupos": 33,
         "horarios": {
@@ -5960,7 +5709,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "REMOTO",
         "cupos": 42,
         "horarios": {
@@ -5985,7 +5733,6 @@
         ]
       },
       {
-        "materia": "6108",
         "codigo": "13B",
         "cupos": 27,
         "horarios": {
@@ -6010,7 +5757,6 @@
     ],
     "7540": [
       {
-        "materia": "7540",
         "codigo": "01-Guarna",
         "cupos": 70,
         "horarios": {
@@ -6037,7 +5783,6 @@
         ]
       },
       {
-        "materia": "7540",
         "codigo": "02-Azcurra",
         "cupos": 80,
         "horarios": {
@@ -6055,7 +5800,6 @@
         ]
       },
       {
-        "materia": "7540",
         "codigo": "03-Camejo",
         "cupos": 100,
         "horarios": {
@@ -6078,7 +5822,6 @@
         ]
       },
       {
-        "materia": "7540",
         "codigo": "04-Essaya",
         "cupos": 60,
         "horarios": {
@@ -6103,7 +5846,6 @@
         ]
       },
       {
-        "materia": "7540",
         "codigo": "05-Costa",
         "cupos": 30,
         "horarios": {
@@ -6128,7 +5870,6 @@
     ],
     "7541": [
       {
-        "materia": "7541",
         "codigo": "01-Calvo",
         "cupos": 40,
         "horarios": {
@@ -6152,7 +5893,6 @@
         ]
       },
       {
-        "materia": "7541",
         "codigo": "02-Buchwald",
         "cupos": 80,
         "horarios": {
@@ -6178,7 +5918,6 @@
         ]
       },
       {
-        "materia": "7541",
         "codigo": "03-Juarez",
         "cupos": 40,
         "horarios": {
@@ -6203,7 +5942,6 @@
         ]
       },
       {
-        "materia": "7541",
         "codigo": "04-Mendez",
         "cupos": 75,
         "horarios": {
@@ -6227,7 +5965,6 @@
         ]
       },
       {
-        "materia": "7541",
         "codigo": "05-Calvo",
         "cupos": 40,
         "horarios": {
@@ -6253,7 +5990,6 @@
     ],
     "7507": [
       {
-        "materia": "7507",
         "codigo": "01-Suarez",
         "cupos": 100,
         "horarios": {
@@ -6281,7 +6017,6 @@
         ]
       },
       {
-        "materia": "7507",
         "codigo": "02-Leveroni",
         "cupos": 40,
         "horarios": {
@@ -6306,7 +6041,6 @@
     ],
     "6606": [
       {
-        "materia": "6606",
         "codigo": "1",
         "cupos": 10,
         "horarios": {
@@ -6337,7 +6071,6 @@
         ]
       },
       {
-        "materia": "6606",
         "codigo": "2",
         "cupos": 10,
         "horarios": {
@@ -6369,7 +6102,6 @@
     ],
     "7509": [
       {
-        "materia": "7509",
         "codigo": "01-Villagra",
         "cupos": 20,
         "horarios": {
@@ -6394,7 +6126,6 @@
         ]
       },
       {
-        "materia": "7509",
         "codigo": "02-Gonzalez",
         "cupos": 40,
         "horarios": {
@@ -6419,7 +6150,6 @@
     ],
     "6103": [
       {
-        "materia": "6103",
         "codigo": "11A",
         "cupos": 29,
         "horarios": {
@@ -6443,7 +6173,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "11B",
         "cupos": 29,
         "horarios": {
@@ -6467,7 +6196,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "12A",
         "cupos": 29,
         "horarios": {
@@ -6491,7 +6219,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "12B",
         "cupos": 29,
         "horarios": {
@@ -6515,7 +6242,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "14A",
         "cupos": 29,
         "horarios": {
@@ -6539,7 +6265,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "14B",
         "cupos": 29,
         "horarios": {
@@ -6563,7 +6288,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "15A",
         "cupos": 29,
         "horarios": {
@@ -6587,7 +6311,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "15B",
         "cupos": 29,
         "horarios": {
@@ -6611,7 +6334,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "20A",
         "cupos": 29,
         "horarios": {
@@ -6635,7 +6357,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "20B",
         "cupos": 29,
         "horarios": {
@@ -6659,7 +6380,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "22A",
         "cupos": 29,
         "horarios": {
@@ -6683,7 +6403,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "22B",
         "cupos": 29,
         "horarios": {
@@ -6707,7 +6426,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "2A",
         "cupos": 29,
         "horarios": {
@@ -6731,7 +6449,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "2B",
         "cupos": 29,
         "horarios": {
@@ -6755,7 +6472,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "3A",
         "cupos": 29,
         "horarios": {
@@ -6779,7 +6495,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "4A",
         "cupos": 29,
         "horarios": {
@@ -6803,7 +6518,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "4B",
         "cupos": 29,
         "horarios": {
@@ -6827,7 +6541,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "5A",
         "cupos": 29,
         "horarios": {
@@ -6852,7 +6565,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "5B",
         "cupos": 29,
         "horarios": {
@@ -6876,7 +6588,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "6A",
         "cupos": 29,
         "horarios": {
@@ -6899,7 +6610,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "6B",
         "cupos": 29,
         "horarios": {
@@ -6923,7 +6633,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "8",
         "cupos": 34,
         "horarios": {
@@ -6948,7 +6657,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "9A",
         "cupos": 29,
         "horarios": {
@@ -6972,7 +6680,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "9B",
         "cupos": 29,
         "horarios": {
@@ -6996,7 +6703,6 @@
         ]
       },
       {
-        "materia": "6103",
         "codigo": "3B",
         "cupos": 29,
         "horarios": {
@@ -7022,7 +6728,6 @@
     ],
     "6110": [
       {
-        "materia": "6110",
         "codigo": "2",
         "cupos": 15,
         "horarios": {
@@ -7045,7 +6750,6 @@
         ]
       },
       {
-        "materia": "6110",
         "codigo": "3",
         "cupos": 15,
         "horarios": {
@@ -7069,7 +6773,6 @@
         ]
       },
       {
-        "materia": "6110",
         "codigo": "1",
         "cupos": 20,
         "horarios": {
@@ -7094,7 +6797,6 @@
         ]
       },
       {
-        "materia": "6110",
         "codigo": "5A",
         "cupos": 12,
         "horarios": {
@@ -7118,7 +6820,6 @@
         ]
       },
       {
-        "materia": "6110",
         "codigo": "5B",
         "cupos": 13,
         "horarios": {
@@ -7144,7 +6845,6 @@
     ],
     "7512": [
       {
-        "materia": "7512",
         "codigo": "01-Menendez",
         "cupos": 40,
         "horarios": {
@@ -7168,7 +6868,6 @@
         ]
       },
       {
-        "materia": "7512",
         "codigo": "02-Tarela",
         "cupos": 60,
         "horarios": {
@@ -7193,7 +6892,6 @@
         ]
       },
       {
-        "materia": "7512",
         "codigo": "03-Griggio",
         "cupos": 35,
         "horarios": {
@@ -7217,7 +6915,6 @@
         ]
       },
       {
-        "materia": "7512",
         "codigo": "04-Schwarz",
         "cupos": 30,
         "horarios": {
@@ -7242,7 +6939,6 @@
         ]
       },
       {
-        "materia": "7512",
         "codigo": "05-Sassano",
         "cupos": 55,
         "horarios": {
@@ -7268,7 +6964,6 @@
         ]
       },
       {
-        "materia": "7512",
         "codigo": "06-Rodriguez",
         "cupos": 15,
         "horarios": {
@@ -7291,7 +6986,6 @@
         ]
       },
       {
-        "materia": "7512",
         "codigo": "07-Cavaliere",
         "cupos": 10,
         "horarios": {
@@ -7317,7 +7011,6 @@
         ]
       },
       {
-        "materia": "7512",
         "codigo": "08-Cavaliere",
         "cupos": 10,
         "horarios": {
@@ -7344,7 +7037,6 @@
     ],
     "7538": [
       {
-        "materia": "7538",
         "codigo": "01-Menendez",
         "cupos": 20,
         "horarios": {
@@ -7369,7 +7061,6 @@
     ],
     "7141": [
       {
-        "materia": "7141",
         "codigo": "1",
         "cupos": 10,
         "horarios": {
@@ -7394,7 +7085,6 @@
     ],
     "7573": [
       {
-        "materia": "7573",
         "codigo": "01-Calonico",
         "cupos": 45,
         "horarios": {
@@ -7413,7 +7103,6 @@
     ],
     "7515": [
       {
-        "materia": "7515",
         "codigo": "01-Beiro",
         "cupos": 70,
         "horarios": {
@@ -7440,7 +7129,6 @@
     ],
     "7548": [
       {
-        "materia": "7548",
         "codigo": "01-Pantaleo",
         "cupos": 20,
         "horarios": {
@@ -7458,7 +7146,6 @@
     ],
     "6669": [
       {
-        "materia": "6669",
         "codigo": "1",
         "cupos": 25,
         "horarios": {
@@ -7483,7 +7170,6 @@
     ],
     "6405": [
       {
-        "materia": "6405",
         "codigo": "1",
         "cupos": 5,
         "horarios": {
@@ -7507,7 +7193,6 @@
         ]
       },
       {
-        "materia": "6405",
         "codigo": "2",
         "cupos": 5,
         "horarios": {
@@ -7531,7 +7216,6 @@
         ]
       },
       {
-        "materia": "6405",
         "codigo": "3",
         "cupos": 5,
         "horarios": {
@@ -7556,7 +7240,6 @@
         ]
       },
       {
-        "materia": "6405",
         "codigo": "4",
         "cupos": 5,
         "horarios": {
@@ -7580,7 +7263,6 @@
         ]
       },
       {
-        "materia": "6405",
         "codigo": "5",
         "cupos": 5,
         "horarios": {
@@ -7604,7 +7286,6 @@
         ]
       },
       {
-        "materia": "6405",
         "codigo": "6",
         "cupos": 5,
         "horarios": {
@@ -7630,7 +7311,6 @@
     ],
     "7112": [
       {
-        "materia": "7112",
         "codigo": "1",
         "cupos": 130,
         "horarios": {
@@ -7652,7 +7332,6 @@
     ],
     "6670": [
       {
-        "materia": "6670",
         "codigo": "1",
         "cupos": 30,
         "horarios": {
@@ -7676,7 +7355,6 @@
         ]
       },
       {
-        "materia": "6670",
         "codigo": "2",
         "cupos": 30,
         "horarios": {
@@ -7700,7 +7378,6 @@
         ]
       },
       {
-        "materia": "6670",
         "codigo": "3",
         "cupos": 30,
         "horarios": {
@@ -7727,7 +7404,6 @@
     ],
     "7118": [
       {
-        "materia": "7118",
         "codigo": "1",
         "cupos": 50,
         "horarios": {
@@ -7746,7 +7422,6 @@
     ],
     "7558": [
       {
-        "materia": "7558",
         "codigo": "01-Villagra",
         "cupos": 10,
         "horarios": {
@@ -7764,7 +7439,6 @@
     ],
     "6201": [
       {
-        "materia": "6201",
         "codigo": "01",
         "cupos": 40,
         "horarios": {
@@ -7790,7 +7464,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "03",
         "cupos": 40,
         "horarios": {
@@ -7816,7 +7489,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "05",
         "cupos": 40,
         "horarios": {
@@ -7842,7 +7514,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "06",
         "cupos": 40,
         "horarios": {
@@ -7867,7 +7538,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "07",
         "cupos": 40,
         "horarios": {
@@ -7892,7 +7562,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "08",
         "cupos": 40,
         "horarios": {
@@ -7918,7 +7587,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "09",
         "cupos": 40,
         "horarios": {
@@ -7943,7 +7611,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "10",
         "cupos": 40,
         "horarios": {
@@ -7969,7 +7636,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "11",
         "cupos": 40,
         "horarios": {
@@ -7995,7 +7661,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "12",
         "cupos": 40,
         "horarios": {
@@ -8021,7 +7686,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "13",
         "cupos": 40,
         "horarios": {
@@ -8047,7 +7711,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "14",
         "cupos": 40,
         "horarios": {
@@ -8073,7 +7736,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "15",
         "cupos": 40,
         "horarios": {
@@ -8099,7 +7761,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "16",
         "cupos": 40,
         "horarios": {
@@ -8124,7 +7785,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "17",
         "cupos": 40,
         "horarios": {
@@ -8150,7 +7810,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "SP1",
         "cupos": 40,
         "horarios": {
@@ -8170,7 +7829,6 @@
         ]
       },
       {
-        "materia": "6201",
         "codigo": "SP2",
         "cupos": 40,
         "horarios": {
@@ -8193,7 +7851,6 @@
     ],
     "6203": [
       {
-        "materia": "6203",
         "codigo": "01",
         "cupos": 15,
         "horarios": {
@@ -8218,7 +7875,6 @@
         ]
       },
       {
-        "materia": "6203",
         "codigo": "02",
         "cupos": 15,
         "horarios": {
@@ -8243,7 +7899,6 @@
         ]
       },
       {
-        "materia": "6203",
         "codigo": "03",
         "cupos": 15,
         "horarios": {
@@ -8268,7 +7923,6 @@
         ]
       },
       {
-        "materia": "6203",
         "codigo": "04",
         "cupos": 15,
         "horarios": {
@@ -8293,7 +7947,6 @@
         ]
       },
       {
-        "materia": "6203",
         "codigo": "05",
         "cupos": 15,
         "horarios": {
@@ -8318,7 +7971,6 @@
         ]
       },
       {
-        "materia": "6203",
         "codigo": "07",
         "cupos": 15,
         "horarios": {
@@ -8343,7 +7995,6 @@
         ]
       },
       {
-        "materia": "6203",
         "codigo": "08",
         "cupos": 15,
         "horarios": {
@@ -8368,7 +8019,6 @@
         ]
       },
       {
-        "materia": "6203",
         "codigo": "09",
         "cupos": 15,
         "horarios": {
@@ -8393,7 +8043,6 @@
         ]
       },
       {
-        "materia": "6203",
         "codigo": "10",
         "cupos": 15,
         "horarios": {
@@ -8417,7 +8066,6 @@
         ]
       },
       {
-        "materia": "6203",
         "codigo": "11",
         "cupos": 15,
         "horarios": {
@@ -8442,7 +8090,6 @@
         ]
       },
       {
-        "materia": "6203",
         "codigo": "12",
         "cupos": 15,
         "horarios": {
@@ -8467,7 +8114,6 @@
         ]
       },
       {
-        "materia": "6203",
         "codigo": "13",
         "cupos": 15,
         "horarios": {
@@ -8495,7 +8141,6 @@
     ],
     "6215": [
       {
-        "materia": "6215",
         "codigo": "1",
         "cupos": 45,
         "horarios": {
@@ -8521,7 +8166,6 @@
     ],
     "7802": [
       {
-        "materia": "7802",
         "codigo": "01-SEDE",
         "cupos": 25,
         "horarios": {
@@ -8539,7 +8183,6 @@
     ],
     "7803": [
       {
-        "materia": "7803",
         "codigo": "01-",
         "cupos": 25,
         "horarios": {
@@ -8557,7 +8200,6 @@
     ],
     "7801": [
       {
-        "materia": "7801",
         "codigo": "01-SEDE",
         "cupos": 30,
         "horarios": {
@@ -8575,7 +8217,6 @@
         ]
       },
       {
-        "materia": "7801",
         "codigo": "04-SEDE",
         "cupos": 33,
         "horarios": {
@@ -8593,7 +8234,6 @@
         ]
       },
       {
-        "materia": "7801",
         "codigo": "02",
         "cupos": 30,
         "horarios": {
@@ -8611,7 +8251,6 @@
         ]
       },
       {
-        "materia": "7801",
         "codigo": "03-SEDE",
         "cupos": 30,
         "horarios": {
@@ -8629,7 +8268,6 @@
         ]
       },
       {
-        "materia": "7801",
         "codigo": "05-SEDE",
         "cupos": 30,
         "horarios": {
@@ -8647,7 +8285,6 @@
         ]
       },
       {
-        "materia": "7801",
         "codigo": "06-SEDE",
         "cupos": 33,
         "horarios": {
@@ -8664,7 +8301,6 @@
         ]
       },
       {
-        "materia": "7801",
         "codigo": "07-SEDE",
         "cupos": 33,
         "horarios": {
@@ -8682,7 +8318,6 @@
         ]
       },
       {
-        "materia": "7801",
         "codigo": "08-SEDE",
         "cupos": 33,
         "horarios": {
@@ -8700,7 +8335,6 @@
         ]
       },
       {
-        "materia": "7801",
         "codigo": "09-SEDE",
         "cupos": 33,
         "horarios": {
@@ -8718,7 +8352,6 @@
         ]
       },
       {
-        "materia": "7801",
         "codigo": "10-SEDE",
         "cupos": 33,
         "horarios": {
@@ -8738,7 +8371,6 @@
     ],
     "7804": [
       {
-        "materia": "7804",
         "codigo": "01-SEDE",
         "cupos": 25,
         "horarios": {
@@ -8756,7 +8388,6 @@
     ],
     "7805": [
       {
-        "materia": "7805",
         "codigo": "01",
         "cupos": null,
         "horarios": {
@@ -8774,7 +8405,6 @@
     ],
     "7113": [
       {
-        "materia": "7113",
         "codigo": "1",
         "cupos": 50,
         "horarios": {
@@ -8793,7 +8423,6 @@
     ],
     "7146": [
       {
-        "materia": "7146",
         "codigo": "1",
         "cupos": 100,
         "horarios": {
@@ -8813,7 +8442,6 @@
     ],
     "7543": [
       {
-        "materia": "7543",
         "codigo": "01-Alvarez",
         "cupos": 80,
         "horarios": {
@@ -8838,7 +8466,6 @@
     ],
     "7550": [
       {
-        "materia": "7550",
         "codigo": "01-Ochoa",
         "cupos": 40,
         "horarios": {
@@ -8863,7 +8490,6 @@
     ],
     "6602": [
       {
-        "materia": "6602",
         "codigo": "1",
         "cupos": 16,
         "horarios": {
@@ -8882,7 +8508,6 @@
         ]
       },
       {
-        "materia": "6602",
         "codigo": "2",
         "cupos": 8,
         "horarios": {
@@ -8907,7 +8532,6 @@
     ],
     "7140": [
       {
-        "materia": "7140",
         "codigo": "1",
         "cupos": 40,
         "horarios": {
@@ -8928,7 +8552,6 @@
     ],
     "7514": [
       {
-        "materia": "7514",
         "codigo": "01-Corsi",
         "cupos": 50,
         "horarios": {
@@ -8953,7 +8576,6 @@
     ],
     "7566": [
       {
-        "materia": "7566",
         "codigo": "01-Ierache",
         "cupos": 30,
         "horarios": {
@@ -8979,7 +8601,6 @@
     ],
     "6107": [
       {
-        "materia": "6107",
         "codigo": "1",
         "cupos": 48,
         "horarios": {
@@ -9004,7 +8625,6 @@
         ]
       },
       {
-        "materia": "6107",
         "codigo": "2",
         "cupos": 24,
         "horarios": {
@@ -9027,7 +8647,6 @@
         ]
       },
       {
-        "materia": "6107",
         "codigo": "3",
         "cupos": 36,
         "horarios": {
@@ -9053,7 +8672,6 @@
     ],
     "7201": [
       {
-        "materia": "7201",
         "codigo": "1",
         "cupos": 10,
         "horarios": {
@@ -9072,7 +8690,6 @@
         ]
       },
       {
-        "materia": "7201",
         "codigo": "2",
         "cupos": 10,
         "horarios": {
@@ -9093,7 +8710,6 @@
     ],
     "7114": [
       {
-        "materia": "7114",
         "codigo": "2",
         "cupos": 25,
         "horarios": {
@@ -9117,7 +8733,6 @@
         ]
       },
       {
-        "materia": "7114",
         "codigo": "3",
         "cupos": 30,
         "horarios": {
@@ -9142,7 +8757,6 @@
         ]
       },
       {
-        "materia": "7114",
         "codigo": "4",
         "cupos": 20,
         "horarios": {
@@ -9170,7 +8784,6 @@
     ],
     "7115": [
       {
-        "materia": "7115",
         "codigo": "1",
         "cupos": 70,
         "horarios": {
@@ -9190,7 +8803,6 @@
     ],
     "7120": [
       {
-        "materia": "7120",
         "codigo": "1",
         "cupos": 10,
         "horarios": {
@@ -9214,7 +8826,6 @@
     ],
     "6620": [
       {
-        "materia": "6620",
         "codigo": "1",
         "cupos": 35,
         "horarios": {
@@ -9240,7 +8851,6 @@
     ],
     "7506": [
       {
-        "materia": "7506",
         "codigo": "01-Martinelli",
         "cupos": 65,
         "horarios": {
@@ -9265,7 +8875,6 @@
         ]
       },
       {
-        "materia": "7506",
         "codigo": "02-Rodriguez",
         "cupos": 40,
         "horarios": {
@@ -9289,7 +8898,6 @@
     ],
     "7556": [
       {
-        "materia": "7556",
         "codigo": "01-",
         "cupos": 40,
         "horarios": {
@@ -9314,7 +8922,6 @@
     ],
     "6109": [
       {
-        "materia": "6109",
         "codigo": "21",
         "cupos": 45,
         "horarios": {
@@ -9338,7 +8945,6 @@
         ]
       },
       {
-        "materia": "6109",
         "codigo": "22",
         "cupos": 45,
         "horarios": {
@@ -9362,7 +8968,6 @@
         ]
       },
       {
-        "materia": "6109",
         "codigo": "27",
         "cupos": 45,
         "horarios": {
@@ -9386,7 +8991,6 @@
         ]
       },
       {
-        "materia": "6109",
         "codigo": "29",
         "cupos": 15,
         "horarios": {
@@ -9412,7 +9016,6 @@
     ],
     "6301": [
       {
-        "materia": "6301",
         "codigo": "01",
         "cupos": 20,
         "horarios": {
@@ -9438,7 +9041,6 @@
         ]
       },
       {
-        "materia": "6301",
         "codigo": "02",
         "cupos": 20,
         "horarios": {
@@ -9463,7 +9065,6 @@
         ]
       },
       {
-        "materia": "6301",
         "codigo": "03",
         "cupos": 20,
         "horarios": {
@@ -9490,7 +9091,6 @@
         ]
       },
       {
-        "materia": "6301",
         "codigo": "04",
         "cupos": 20,
         "horarios": {
@@ -9516,7 +9116,6 @@
         ]
       },
       {
-        "materia": "6301",
         "codigo": "05",
         "cupos": 20,
         "horarios": {
@@ -9540,7 +9139,6 @@
         ]
       },
       {
-        "materia": "6301",
         "codigo": "07",
         "cupos": 20,
         "horarios": {
@@ -9565,7 +9163,6 @@
         ]
       },
       {
-        "materia": "6301",
         "codigo": "08",
         "cupos": 20,
         "horarios": {
@@ -9590,7 +9187,6 @@
         ]
       },
       {
-        "materia": "6301",
         "codigo": "09",
         "cupos": 20,
         "horarios": {
@@ -9609,7 +9205,6 @@
         ]
       },
       {
-        "materia": "6301",
         "codigo": "11",
         "cupos": 20,
         "horarios": {
@@ -9631,7 +9226,6 @@
         ]
       },
       {
-        "materia": "6301",
         "codigo": "12",
         "cupos": 20,
         "horarios": {
@@ -9656,7 +9250,6 @@
         ]
       },
       {
-        "materia": "6301",
         "codigo": "13",
         "cupos": 20,
         "horarios": {
@@ -9681,7 +9274,6 @@
         ]
       },
       {
-        "materia": "6301",
         "codigo": "14",
         "cupos": 20,
         "horarios": {
@@ -9708,7 +9300,6 @@
     ],
     "7144": [
       {
-        "materia": "7144",
         "codigo": "1",
         "cupos": 25,
         "horarios": {
@@ -9730,7 +9321,6 @@
     ],
     "7571": [
       {
-        "materia": "7571",
         "codigo": "01-Cosso",
         "cupos": 30,
         "horarios": {
@@ -9747,7 +9337,6 @@
         ]
       },
       {
-        "materia": "7571",
         "codigo": "02-Clua",
         "cupos": 10,
         "horarios": {
@@ -9763,7 +9352,6 @@
         ]
       },
       {
-        "materia": "7571",
         "codigo": "03-Caram",
         "cupos": 20,
         "horarios": {
@@ -9782,7 +9370,6 @@
     ],
     "7572": [
       {
-        "materia": "7572",
         "codigo": "01-Cosso",
         "cupos": 10,
         "horarios": {
@@ -9799,7 +9386,6 @@
         ]
       },
       {
-        "materia": "7572",
         "codigo": "02-Clua",
         "cupos": 10,
         "horarios": {
@@ -9815,7 +9401,6 @@
         ]
       },
       {
-        "materia": "7572",
         "codigo": "03-Caram",
         "cupos": 10,
         "horarios": {
@@ -9834,7 +9419,6 @@
     ],
     "6674": [
       {
-        "materia": "6674",
         "codigo": "1",
         "cupos": 15,
         "horarios": {
@@ -9858,7 +9442,6 @@
         ]
       },
       {
-        "materia": "6674",
         "codigo": "2",
         "cupos": 15,
         "horarios": {
@@ -9881,7 +9464,6 @@
         ]
       },
       {
-        "materia": "6674",
         "codigo": "3",
         "cupos": 15,
         "horarios": {
@@ -9907,7 +9489,6 @@
     ],
     "7526": [
       {
-        "materia": "7526",
         "codigo": "01-Caiafa",
         "cupos": 35,
         "horarios": {
@@ -9933,7 +9514,6 @@
     ],
     "7569": [
       {
-        "materia": "7569",
         "codigo": "01-Merlino",
         "cupos": 30,
         "horarios": {
@@ -9951,7 +9531,6 @@
     ],
     "7568": [
       {
-        "materia": "7568",
         "codigo": "01-Merlino",
         "cupos": 30,
         "horarios": {
@@ -9970,7 +9549,6 @@
     ],
     "7574": [
       {
-        "materia": "7574",
         "codigo": "01-Roca",
         "cupos": 20,
         "horarios": {
@@ -9995,7 +9573,6 @@
     ],
     "6671": [
       {
-        "materia": "6671",
         "codigo": "1",
         "cupos": 15,
         "horarios": {
@@ -10020,7 +9597,6 @@
     ],
     "7508": [
       {
-        "materia": "7508",
         "codigo": "01-Mendez",
         "cupos": 60,
         "horarios": {
@@ -10047,7 +9623,6 @@
     ],
     "7545": [
       {
-        "materia": "7545",
         "codigo": "01-Piñeiro",
         "cupos": 50,
         "horarios": {
@@ -10072,7 +9647,6 @@
     ],
     "7547": [
       {
-        "materia": "7547",
         "codigo": "01-Degiovannini",
         "cupos": 60,
         "horarios": {
@@ -10093,7 +9667,6 @@
     ],
     "7542": [
       {
-        "materia": "7542",
         "codigo": "01-Veiga",
         "cupos": 60,
         "horarios": {
@@ -10112,7 +9685,6 @@
         ]
       },
       {
-        "materia": "7542",
         "codigo": "02-Deymonnaz",
         "cupos": 60,
         "horarios": {
@@ -10131,7 +9703,6 @@
     ],
     "7552": [
       {
-        "materia": "7552",
         "codigo": "01-Calonico",
         "cupos": 50,
         "horarios": {
@@ -10151,7 +9722,6 @@
     ],
     "7561": [
       {
-        "materia": "7561",
         "codigo": "1-Hamelin",
         "cupos": 10,
         "horarios": {
@@ -10177,7 +9747,6 @@
     ],
     "7510": [
       {
-        "materia": "7510",
         "codigo": "01-Pantaleo",
         "cupos": 60,
         "horarios": {
@@ -10201,7 +9770,6 @@
         ]
       },
       {
-        "materia": "7510",
         "codigo": "02-Paez",
         "cupos": 10,
         "horarios": {
@@ -10226,7 +9794,6 @@
     ],
     "7551": [
       {
-        "materia": "7551",
         "codigo": "1-TURRI",
         "cupos": 30,
         "horarios": {
@@ -10244,7 +9811,6 @@
     ],
     "7559": [
       {
-        "materia": "7559",
         "codigo": "01-Deymonnaz",
         "cupos": 20,
         "horarios": {
@@ -10268,7 +9834,6 @@
     ],
     "7529": [
       {
-        "materia": "7529",
         "codigo": "01-Podberezski",
         "cupos": 40,
         "horarios": {
@@ -10293,7 +9858,6 @@
     ],
     "7531": [
       {
-        "materia": "7531",
         "codigo": "01-Ferrigno",
         "cupos": 10,
         "horarios": {

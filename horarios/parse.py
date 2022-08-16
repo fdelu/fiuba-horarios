@@ -31,7 +31,7 @@ def parse_periodo(periodo):
         for curso in materia.find_all("table"):
             curso = parse_curso(curso)
             if curso:
-                cursos_materia.append({"materia": codigo, **curso})
+                cursos_materia.append(curso)
         cursos[codigo] = cursos_materia
 
     return cursos
