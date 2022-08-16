@@ -4,7 +4,7 @@ Descarga los horarios del SIU y calcula todas las posibles combinaciones de curs
 
 Uso:
 
-1. Instalar las dependencias (`pip install -r requirements.txt`, opcionalmente con un `venv`)
+1. Instalar las dependencias (`pip3 install -r requirements.txt`, opcionalmente con un `venv`)
 2. Crear un archivo `aprobadas.txt` con el código de las materias que ya se aprobaron en cada línea
 3. Ejecutar `python3 main.py`.
 
