@@ -1,50 +1,88 @@
 import json
-import requests
-import re
+from itertools import starmap
+from calculadora import get_creditos, get_combinaciones_posibles, get_materias_disponibles, get_materias_posibles, es_idioma
+import os
 
-L = "A-Za-zÁÉÍÓÚÚáéíóúÑñüÜ"
+DIR = os.path.dirname(os.path.realpath(__file__))
+PATH_PLAN = DIR + "/plan/data.json"
+PATH_APROBADAS = DIR + "/aprobadas.txt"
+PATH_OUTPUT = DIR + "/output.txt"
+CREDITOS_PLAN = 248
 
-with open("input.txt", "r", encoding="utf8") as f:
-    passed = set(map(lambda x: int(x.replace(".", "").strip()), f.readlines()))
-
-with open("data.json", "r", encoding="utf8") as f:
-    data = json.load(f)
-    data = {x["number"]: x for x in data}
-
-credits = 0
-for subject in passed:
-    credits += data[subject]["credits"]
-
-has_language = any(map(lambda x: "idioma" in data[x]["name"].lower(), passed))
-
-response = requests.get(
-    "https://guaraniautogestion.fi.uba.ar/g3w/horarios_cursadas?formulario_filtro[ra]=3b5e0365f0c2299dfd89eb3852a8ebb566382194&formulario_filtro[carrera]=9220d714727dbe74790a6782a5241e56f7034064&formulario_filtro[anio_cursada]=&formulario_filtro[periodo]=29")
-available = set(
-    map(int, re.findall(rf"[\.{L}]+ \( (\d\d\d\d) \)", response.text)))
-
-can_do = set()
-for number, info in data.items():
-    if not all(map(lambda x: x in passed, info["dependencies"])) \
-            or info["min_credits"] > credits \
-            or number in passed \
-            or (has_language and "idioma" in info["name"].lower()):
-        continue
-    can_do.add(number)
+with open(PATH_PLAN, "r", encoding="utf8") as f:
+    PLAN = json.load(f)
+    PLAN = {x["codigo"]: x for x in PLAN}
 
 
-def print_subject(subject):
-    print(
-        f'* {subject["name"]} ({subject["number"]}) - {subject["credits"]} créditos')
+def format_materia(materia):
+    materia = PLAN[materia]
+    return f'* {materia["nombre"]} ({materia["codigo"]}) - {materia["creditos"]} créditos'
 
 
-print("Calculadora de materias")
-print(f"Aprobaste {len(passed)} materias")
-print(f"Tenés {credits}/248 ({credits / 248 * 100 :.2f}%) créditos de la carrera aprobados (no cuenta CBC)\n")
-if has_language:
-    print("Ya cursaste una materia electiva de idioma, asi que no podes cursar otra\n")
-print("Podes cursar las siguientes materias: ")
-for number in sorted(can_do.intersection(available), key=lambda x: data[x]["name"]):
-    print_subject(data[number])
-print("\nTambién podrías cursar las siguientes materias, pero no tienen horarios este cuatrimestre:")
-for number in sorted(can_do.difference(available), key=lambda x: data[x]["name"]):
-    print_subject(data[number])
+def format_dia(dia, horarios):
+    return f"{dia.capitalize()}: {', '.join(map(lambda x: x['inicio'] + ' - ' + x['fin'], horarios))}."
+
+
+def format_curso(curso):
+    out = f"\tCurso {curso['codigo']}, {curso['cupos']} cupos\n"
+    out += f"\t" + " ".join(starmap(format_dia, curso['horarios'].items()))
+    out += f"\n\tDocentes: " + ', '.join(curso['docentes']) + "\n"
+    return out
+
+
+def resumen_disponibles():
+    with open(PATH_APROBADAS, "r", encoding="utf8") as f:
+        aprobadas = set(map(lambda x: x.replace(
+            ".", "").strip(), f.readlines()))
+
+    creditos = get_creditos(aprobadas)
+    posibles = set(get_materias_posibles(aprobadas))
+    disponibles = set(get_materias_disponibles())
+
+    print(f"Aprobaste {len(aprobadas)} materias")
+    print((f"Tenés {creditos}/{CREDITOS_PLAN} ({creditos / CREDITOS_PLAN * 100 :.2f}%) "
+           "créditos de la carrera aprobados (no cuenta CBC)\n"))
+
+    if any(es_idioma(materia) for materia in aprobadas):
+        print("Ya cursaste una materia electiva de idioma, asi que no podes cursar otra\n")
+
+    print("Podes cursar las siguientes materias: ")
+    for codigo in sorted(posibles.intersection(disponibles), key=lambda x: PLAN[x]["nombre"]):
+        print(format_materia(codigo))
+
+    print("\nTambién podrías cursar las siguientes materias, pero no tienen horarios este cuatrimestre:")
+    for codigo in sorted(posibles.difference(disponibles), key=lambda x: PLAN[x]["nombre"]):
+        print(format_materia(codigo))
+
+    return posibles.intersection(disponibles)
+
+
+def input_materias(mensaje):
+    materias = input(f"{mensaje} (códigos separados por comas) ").split(",")
+    return list(map(lambda x: x.strip(), filter(len, materias)))
+
+
+def guardar_output(combinaciones):
+    print(f"Escribiendo resultado a {PATH_OUTPUT}")
+    with open(PATH_OUTPUT, "w", encoding="utf8") as f:
+        for i, combinacion in enumerate(combinaciones):
+            f.write(f"Opción {i}\n")
+            for materia, curso in combinacion:
+                f.write(format_materia(materia) + "\n")
+                f.write(format_curso(curso))
+
+
+def main():
+    print("Calculadora de materias")
+    materias = resumen_disponibles()
+    cantidad = int(input("\n¿Cuántas materias queres cursar? "))
+    excluir = input_materias("¿Qué materias queres excluir? ")
+    forzar = input_materias("¿Qué materias queres forzar? ")
+    print("Calculando...")
+    materias = set(materias).difference(set(excluir))
+    combinaciones = get_combinaciones_posibles(materias, forzar, cantidad)
+    guardar_output(combinaciones)
+
+
+if __name__ == "__main__":
+    main()

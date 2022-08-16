@@ -1,893 +1,893 @@
 [
   {
-    "number": 7140,
-    "name": "Legislación y Ejercicio Profesional de la Ingeniería en Informática",
-    "credits": 4,
-    "dependencies": [],
-    "min_credits": 140
+    "codigo": "7140",
+    "nombre": "Legislación y Ejercicio Profesional de la Ingeniería en Informática",
+    "creditos": 4,
+    "correlativas": [],
+    "min_creditos": 140
   },
   {
-    "number": 6103,
-    "name": "Análisis Matemático II A",
-    "credits": 8,
-    "dependencies": [],
-    "min_credits": 0
+    "codigo": "6103",
+    "nombre": "Análisis Matemático II A",
+    "creditos": 8,
+    "correlativas": [],
+    "min_creditos": 0
   },
   {
-    "number": 6201,
-    "name": "Física I A",
-    "credits": 8,
-    "dependencies": [],
-    "min_credits": 0
+    "codigo": "6201",
+    "nombre": "Física I A",
+    "creditos": 8,
+    "correlativas": [],
+    "min_creditos": 0
   },
   {
-    "number": 7540,
-    "name": "Algoritmos y Programación I",
-    "credits": 6,
-    "dependencies": [],
-    "min_credits": 0
+    "codigo": "7540",
+    "nombre": "Algoritmos y Programación I",
+    "creditos": 6,
+    "correlativas": [],
+    "min_creditos": 0
   },
   {
-    "number": 6108,
-    "name": "Álgebra II A",
-    "credits": 8,
-    "dependencies": [],
-    "min_credits": 0
+    "codigo": "6108",
+    "nombre": "Álgebra II A",
+    "creditos": 8,
+    "correlativas": [],
+    "min_creditos": 0
   },
   {
-    "number": 6203,
-    "name": "Física II A",
-    "credits": 8,
-    "dependencies": [
-      6103,
-      6201
+    "codigo": "6203",
+    "nombre": "Física II A",
+    "creditos": 8,
+    "correlativas": [
+      "6103",
+      "6201"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7541,
-    "name": "Algoritmos y Programación II",
-    "credits": 6,
-    "dependencies": [
-      7540
+    "codigo": "7541",
+    "nombre": "Algoritmos y Programación II",
+    "creditos": 6,
+    "correlativas": [
+      "7540"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 6109,
-    "name": "Probabilidad y Estadística B",
-    "credits": 6,
-    "dependencies": [
-      6103,
-      6108
+    "codigo": "6109",
+    "nombre": "Probabilidad y Estadística B",
+    "creditos": 6,
+    "correlativas": [
+      "6103",
+      "6108"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 6670,
-    "name": "Estructura del Computador",
-    "credits": 6,
-    "dependencies": [
-      6203,
-      7541
+    "codigo": "6670",
+    "nombre": "Estructura del Computador",
+    "creditos": 6,
+    "correlativas": [
+      "6203",
+      "7541"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7507,
-    "name": "Algoritmos y Programación III",
-    "credits": 6,
-    "dependencies": [
-      7541
+    "codigo": "7507",
+    "nombre": "Algoritmos y Programación III",
+    "creditos": 6,
+    "correlativas": [
+      "7541"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7512,
-    "name": "Análisis Numérico I",
-    "credits": 6,
-    "dependencies": [
-      6103,
-      6108,
-      7541
+    "codigo": "7512",
+    "nombre": "Análisis Numérico I",
+    "creditos": 6,
+    "correlativas": [
+      "6103",
+      "6108",
+      "7541"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7508,
-    "name": "Sistemas Operativos",
-    "credits": 6,
-    "dependencies": [
-      6670
+    "codigo": "7508",
+    "nombre": "Sistemas Operativos",
+    "creditos": 6,
+    "correlativas": [
+      "6670"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7506,
-    "name": "Organización de Datos",
-    "credits": 6,
-    "dependencies": [
-      6108,
-      7541
+    "codigo": "7506",
+    "nombre": "Organización de Datos",
+    "creditos": 6,
+    "correlativas": [
+      "6108",
+      "7541"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7542,
-    "name": "Taller de Programación I",
-    "credits": 4,
-    "dependencies": [
-      6670,
-      7541
+    "codigo": "7542",
+    "nombre": "Taller de Programación I",
+    "creditos": 4,
+    "correlativas": [
+      "6670",
+      "7541"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7114,
-    "name": "Modelos y Optimización I",
-    "credits": 6,
-    "dependencies": [
-      6203,
-      6108,
-      7541
+    "codigo": "7114",
+    "nombre": "Modelos y Optimización I",
+    "creditos": 6,
+    "correlativas": [
+      "6203",
+      "6108",
+      "7541"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7552,
-    "name": "Taller de Programación II",
-    "credits": 4,
-    "dependencies": [
-      7507,
-      7542
+    "codigo": "7552",
+    "nombre": "Taller de Programación II",
+    "creditos": 4,
+    "correlativas": [
+      "7507",
+      "7542"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7509,
-    "name": "Análisis de la Información",
-    "credits": 6,
-    "dependencies": [
-      7507
+    "codigo": "7509",
+    "nombre": "Análisis de la Información",
+    "creditos": 6,
+    "correlativas": [
+      "7507"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7510,
-    "name": "Técnicas de Diseño",
-    "credits": 6,
-    "dependencies": [
-      7508,
-      7509
+    "codigo": "7510",
+    "nombre": "Técnicas de Diseño",
+    "creditos": 6,
+    "correlativas": [
+      "7508",
+      "7509"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7515,
-    "name": "Base de Datos",
-    "credits": 6,
-    "dependencies": [
-      7506,
-      7509
+    "codigo": "7515",
+    "nombre": "Base de Datos",
+    "creditos": 6,
+    "correlativas": [
+      "7506",
+      "7509"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7543,
-    "name": "Introducción a los Sistemas Distribuidos",
-    "credits": 6,
-    "dependencies": [
-      7508
+    "codigo": "7543",
+    "nombre": "Introducción a los Sistemas Distribuidos",
+    "creditos": 6,
+    "correlativas": [
+      "7508"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7568,
-    "name": "Sistemas de Soporte para Celdas de Producción Flexibles",
-    "credits": 4,
-    "dependencies": [
-      7565,
-      7567
+    "codigo": "7568",
+    "nombre": "Sistemas de Soporte para Celdas de Producción Flexibles",
+    "creditos": 4,
+    "correlativas": [
+      "7565",
+      "7567"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7544,
-    "name": "Administración y Control de Proyectos Informáticos I",
-    "credits": 6,
-    "dependencies": [
-      7510
+    "codigo": "7544",
+    "nombre": "Administración y Control de Proyectos Informáticos I",
+    "creditos": 6,
+    "correlativas": [
+      "7510"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7545,
-    "name": "Taller de Desarrollo de Proyectos I",
-    "credits": 6,
-    "dependencies": [
-      7510
+    "codigo": "7545",
+    "nombre": "Taller de Desarrollo de Proyectos I",
+    "creditos": 6,
+    "correlativas": [
+      "7510"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7546,
-    "name": "Administración y Control de Proyectos Informáticos II",
-    "credits": 6,
-    "dependencies": [
-      7544
+    "codigo": "7546",
+    "nombre": "Administración y Control de Proyectos Informáticos II",
+    "creditos": 6,
+    "correlativas": [
+      "7544"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7547,
-    "name": "Taller de Desarrollo de Proyectos II",
-    "credits": 6,
-    "dependencies": [
-      7544,
-      7545
+    "codigo": "7547",
+    "nombre": "Taller de Desarrollo de Proyectos II",
+    "creditos": 6,
+    "correlativas": [
+      "7544",
+      "7545"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7559,
-    "name": "Técnicas de Programación Concurrente I",
-    "credits": 6,
-    "dependencies": [
-      7508
+    "codigo": "7559",
+    "nombre": "Técnicas de Programación Concurrente I",
+    "creditos": 6,
+    "correlativas": [
+      "7508"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7574,
-    "name": "Sistemas Distribuidos I",
-    "credits": 6,
-    "dependencies": [
-      7543,
-      7559
+    "codigo": "7574",
+    "nombre": "Sistemas Distribuidos I",
+    "creditos": 6,
+    "correlativas": [
+      "7543",
+      "7559"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7561,
-    "name": "Taller de Programación III",
-    "credits": 6,
-    "dependencies": [
-      7574
+    "codigo": "7561",
+    "nombre": "Taller de Programación III",
+    "creditos": 6,
+    "correlativas": [
+      "7574"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 6107,
-    "name": "Matemática Discreta",
-    "credits": 6,
-    "dependencies": [],
-    "min_credits": 0
+    "codigo": "6107",
+    "nombre": "Matemática Discreta",
+    "creditos": 6,
+    "correlativas": [],
+    "min_creditos": 0
   },
   {
-    "number": 6110,
-    "name": "Análisis Matemático III A",
-    "credits": 6,
-    "dependencies": [
-      6103,
-      6108
+    "codigo": "6110",
+    "nombre": "Análisis Matemático III A",
+    "creditos": 6,
+    "correlativas": [
+      "6103",
+      "6108"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 6118,
-    "name": "Ecuaciones Diferenciales Ordinarias",
-    "credits": 6,
-    "dependencies": [
-      6103,
-      6108
+    "codigo": "6118",
+    "nombre": "Ecuaciones Diferenciales Ordinarias",
+    "creditos": 6,
+    "correlativas": [
+      "6103",
+      "6108"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 6119,
-    "name": "Análisis Funcional",
-    "credits": 6,
-    "dependencies": [
-      6110
+    "codigo": "6119",
+    "nombre": "Análisis Funcional",
+    "creditos": 6,
+    "correlativas": [
+      "6110"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 6211,
-    "name": "Mecánica Racional",
-    "credits": 4,
-    "dependencies": [
-      6110,
-      6201
+    "codigo": "6211",
+    "nombre": "Mecánica Racional",
+    "creditos": 4,
+    "correlativas": [
+      "6110",
+      "6201"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 6215,
-    "name": "Física III D",
-    "credits": 4,
-    "dependencies": [
-      6108,
-      6203
+    "codigo": "6215",
+    "nombre": "Física III D",
+    "creditos": 4,
+    "correlativas": [
+      "6108",
+      "6203"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 6301,
-    "name": "Química",
-    "credits": 6,
-    "dependencies": [],
-    "min_credits": 0
+    "codigo": "6301",
+    "nombre": "Química",
+    "creditos": 6,
+    "correlativas": [],
+    "min_creditos": 0
   },
   {
-    "number": 6405,
-    "name": "Estática y Resistencia de Materiales B",
-    "credits": 6,
-    "dependencies": [
-      6103,
-      6108
+    "codigo": "6405",
+    "nombre": "Estática y Resistencia de Materiales B",
+    "creditos": 6,
+    "correlativas": [
+      "6103",
+      "6108"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 6606,
-    "name": "Análisis de Circuitos",
-    "credits": 10,
-    "dependencies": [
-      6110,
-      6203
+    "codigo": "6606",
+    "nombre": "Análisis de Circuitos",
+    "creditos": 10,
+    "correlativas": [
+      "6110",
+      "6203"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 6608,
-    "name": "Circuitos Electrónicos I",
-    "credits": 8,
-    "dependencies": [
-      6215,
-      6602,
-      6606
+    "codigo": "6608",
+    "nombre": "Circuitos Electrónicos I",
+    "creditos": 8,
+    "correlativas": [
+      "6215",
+      "6602",
+      "6606"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 6609,
-    "name": "Laboratorio de Microcomputadoras",
-    "credits": 6,
-    "dependencies": [
-      6602,
-      6670
+    "codigo": "6609",
+    "nombre": "Laboratorio de Microcomputadoras",
+    "creditos": 6,
+    "correlativas": [
+      "6602",
+      "6670"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 6602,
-    "name": "Laboratorio",
-    "credits": 6,
-    "dependencies": [
-      6203
+    "codigo": "6602",
+    "nombre": "Laboratorio",
+    "creditos": 6,
+    "correlativas": [
+      "6203"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 6617,
-    "name": "Sistemas Digitales",
-    "credits": 6,
-    "dependencies": [
-      6670
+    "codigo": "6617",
+    "nombre": "Sistemas Digitales",
+    "creditos": 6,
+    "correlativas": [
+      "6670"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 6618,
-    "name": "Teoría de Control I",
-    "credits": 6,
-    "dependencies": [
-      6674
+    "codigo": "6618",
+    "nombre": "Teoría de Control I",
+    "creditos": 6,
+    "correlativas": [
+      "6674"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 6619,
-    "name": "Circuitos de Pulsos",
-    "credits": 6,
-    "dependencies": [
-      6608,
-      6670
+    "codigo": "6619",
+    "nombre": "Circuitos de Pulsos",
+    "creditos": 6,
+    "correlativas": [
+      "6608",
+      "6670"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 6620,
-    "name": "Organización de Computadoras",
-    "credits": 6,
-    "dependencies": [
-      6670
+    "codigo": "6620",
+    "nombre": "Organización de Computadoras",
+    "creditos": 6,
+    "correlativas": [
+      "6670"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 6624,
-    "name": "Teoría de la Información y Codificación",
-    "credits": 4,
-    "dependencies": [
-      6674,
-      6675,
-      6670
+    "codigo": "6624",
+    "nombre": "Teoría de la Información y Codificación",
+    "creditos": 4,
+    "correlativas": [
+      "6674",
+      "6675",
+      "6670"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 6626,
-    "name": "Arquitecturas Paralelas",
-    "credits": 6,
-    "dependencies": [
-      6620
+    "codigo": "6626",
+    "nombre": "Arquitecturas Paralelas",
+    "creditos": 6,
+    "correlativas": [
+      "6620"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 6632,
-    "name": "Robótica",
-    "credits": 6,
-    "dependencies": [
-      6211,
-      6618
+    "codigo": "6632",
+    "nombre": "Robótica",
+    "creditos": 6,
+    "correlativas": [
+      "6211",
+      "6618"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 6635,
-    "name": "Técnica Digital Avanzada",
-    "credits": 6,
-    "dependencies": [
-      6107,
-      6617
+    "codigo": "6635",
+    "nombre": "Técnica Digital Avanzada",
+    "creditos": 6,
+    "correlativas": [
+      "6107",
+      "6617"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 6646,
-    "name": "Procesamiento del Habla",
-    "credits": 6,
-    "dependencies": [
-      6674
+    "codigo": "6646",
+    "nombre": "Procesamiento del Habla",
+    "creditos": 6,
+    "correlativas": [
+      "6674"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 6647,
-    "name": "Procesamiento de Imágenes",
-    "credits": 6,
-    "dependencies": [
-      6109,
-      6674
+    "codigo": "6647",
+    "nombre": "Procesamiento de Imágenes",
+    "creditos": 6,
+    "correlativas": [
+      "6109",
+      "6674"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 6649,
-    "name": "Sistemas Biológicos",
-    "credits": 6,
-    "dependencies": [
-      6674,
-      6301
+    "codigo": "6649",
+    "nombre": "Sistemas Biológicos",
+    "creditos": 6,
+    "correlativas": [
+      "6674",
+      "6301"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 6655,
-    "name": "Simulación de Sistemas de Control",
-    "credits": 4,
-    "dependencies": [
-      6618
+    "codigo": "6655",
+    "nombre": "Simulación de Sistemas de Control",
+    "creditos": 4,
+    "correlativas": [
+      "6618"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 6663,
-    "name": "Redes Neuronales",
-    "credits": 6,
-    "dependencies": [
-      6674,
-      6675
+    "codigo": "6663",
+    "nombre": "Redes Neuronales",
+    "creditos": 6,
+    "correlativas": [
+      "6674",
+      "6675"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 6669,
-    "name": "Criptografía y Seguridad Informática",
-    "credits": 6,
-    "dependencies": [
-      7543
+    "codigo": "6669",
+    "nombre": "Criptografía y Seguridad Informática",
+    "creditos": 6,
+    "correlativas": [
+      "7543"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 6671,
-    "name": "Sistemas Gráficos",
-    "credits": 6,
-    "dependencies": [
-      7541,
-      6103,
-      6108
+    "codigo": "6671",
+    "nombre": "Sistemas Gráficos",
+    "creditos": 6,
+    "correlativas": [
+      "7541",
+      "6103",
+      "6108"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 6674,
-    "name": "Señales y Sistemas",
-    "credits": 6,
-    "dependencies": [
-      6109,
-      6606
+    "codigo": "6674",
+    "nombre": "Señales y Sistemas",
+    "creditos": 6,
+    "correlativas": [
+      "6109",
+      "6606"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 6675,
-    "name": "Procesos Estocásticos",
-    "credits": 6,
-    "dependencies": [
-      6103,
-      6109
+    "codigo": "6675",
+    "nombre": "Procesos Estocásticos",
+    "creditos": 6,
+    "correlativas": [
+      "6103",
+      "6109"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 6761,
-    "name": "Fundamentos Matemáticos de la Visión en Robótica",
-    "credits": 6,
-    "dependencies": [
-      6108,
-      7507
+    "codigo": "6761",
+    "nombre": "Fundamentos Matemáticos de la Visión en Robótica",
+    "creditos": 6,
+    "correlativas": [
+      "6108",
+      "7507"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7112,
-    "name": "Estructura de las Organizaciones",
-    "credits": 6,
-    "dependencies": [],
-    "min_credits": 60
+    "codigo": "7112",
+    "nombre": "Estructura de las Organizaciones",
+    "creditos": 6,
+    "correlativas": [],
+    "min_creditos": 60
   },
   {
-    "number": 7113,
-    "name": "Información en las Organizaciones",
-    "credits": 6,
-    "dependencies": [
-      7112
+    "codigo": "7113",
+    "nombre": "Información en las Organizaciones",
+    "creditos": 6,
+    "correlativas": [
+      "7112"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7115,
-    "name": "Modelos y Optimización II",
-    "credits": 6,
-    "dependencies": [
-      6109,
-      7114
+    "codigo": "7115",
+    "nombre": "Modelos y Optimización II",
+    "creditos": 6,
+    "correlativas": [
+      "6109",
+      "7114"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7118,
-    "name": "Estructura Económica Argentina",
-    "credits": 4,
-    "dependencies": [],
-    "min_credits": 0
+    "codigo": "7118",
+    "nombre": "Estructura Económica Argentina",
+    "creditos": 4,
+    "correlativas": [],
+    "min_creditos": 0
   },
   {
-    "number": 7120,
-    "name": "Modelos y Optimización III",
-    "credits": 6,
-    "dependencies": [
-      7115
+    "codigo": "7120",
+    "nombre": "Modelos y Optimización III",
+    "creditos": 6,
+    "correlativas": [
+      "7115"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7141,
-    "name": "Análisis y Resolución de Problemas",
-    "credits": 6,
-    "dependencies": [
-      7115
+    "codigo": "7141",
+    "nombre": "Análisis y Resolución de Problemas",
+    "creditos": 6,
+    "correlativas": [
+      "7115"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7142,
-    "name": "Circuitos de Información en la Empresa",
-    "credits": 4,
-    "dependencies": [
-      7146
+    "codigo": "7142",
+    "nombre": "Circuitos de Información en la Empresa",
+    "creditos": 4,
+    "correlativas": [
+      "7146"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7144,
-    "name": "Recursos Humanos",
-    "credits": 4,
-    "dependencies": [],
-    "min_credits": 144
+    "codigo": "7144",
+    "nombre": "Recursos Humanos",
+    "creditos": 4,
+    "correlativas": [],
+    "min_creditos": 144
   },
   {
-    "number": 7146,
-    "name": "Ingeniería Económica",
-    "credits": 6,
-    "dependencies": [],
-    "min_credits": 140
+    "codigo": "7146",
+    "nombre": "Ingeniería Económica",
+    "creditos": 6,
+    "correlativas": [],
+    "min_creditos": 140
   },
   {
-    "number": 7201,
-    "name": "Materiales Industriales I",
-    "credits": 6,
-    "dependencies": [
-      6301,
-      6405
+    "codigo": "7201",
+    "nombre": "Materiales Industriales I",
+    "creditos": 6,
+    "correlativas": [
+      "6301",
+      "6405"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7514,
-    "name": "Lenguajes Formales",
-    "credits": 6,
-    "dependencies": [
-      6109
+    "codigo": "7514",
+    "nombre": "Lenguajes Formales",
+    "creditos": 6,
+    "correlativas": [
+      "6109"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7516,
-    "name": "Lenguajes de Programación",
-    "credits": 6,
-    "dependencies": [
-      7514
+    "codigo": "7516",
+    "nombre": "Lenguajes de Programación",
+    "creditos": 6,
+    "correlativas": [
+      "7514"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7526,
-    "name": "Simulación",
-    "credits": 6,
-    "dependencies": [
-      6109
+    "codigo": "7526",
+    "nombre": "Simulación",
+    "creditos": 6,
+    "correlativas": [
+      "6109"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7529,
-    "name": "Teoría de Algoritmos I",
-    "credits": 6,
-    "dependencies": [
-      7541
+    "codigo": "7529",
+    "nombre": "Teoría de Algoritmos I",
+    "creditos": 6,
+    "correlativas": [
+      "7541"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7530,
-    "name": "Teoría de Algoritmos II",
-    "credits": 6,
-    "dependencies": [
-      7529
+    "codigo": "7530",
+    "nombre": "Teoría de Algoritmos II",
+    "creditos": 6,
+    "correlativas": [
+      "7529"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7531,
-    "name": "Teoría de Lenguaje",
-    "credits": 4,
-    "dependencies": [
-      7541
+    "codigo": "7531",
+    "nombre": "Teoría de Lenguaje",
+    "creditos": 4,
+    "correlativas": [
+      "7541"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7538,
-    "name": "Análisis Numérico II A",
-    "credits": 6,
-    "dependencies": [
-      7552
+    "codigo": "7538",
+    "nombre": "Análisis Numérico II A",
+    "creditos": 6,
+    "correlativas": [
+      "7552"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7548,
-    "name": "Calidad en Desarrollo de Sistemas",
-    "credits": 4,
-    "dependencies": [
-      7545
+    "codigo": "7548",
+    "nombre": "Calidad en Desarrollo de Sistemas",
+    "creditos": 4,
+    "correlativas": [
+      "7545"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7550,
-    "name": "Introducción a los Sistemas Inteligentes",
-    "credits": 6,
-    "dependencies": [
-      6109,
-      7114
+    "codigo": "7550",
+    "nombre": "Introducción a los Sistemas Inteligentes",
+    "creditos": 6,
+    "correlativas": [
+      "6109",
+      "7114"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7551,
-    "name": "Técnicas de Producción de Software I",
-    "credits": 4,
-    "dependencies": [
-      7515,
-      7552
+    "codigo": "7551",
+    "nombre": "Técnicas de Producción de Software I",
+    "creditos": 4,
+    "correlativas": [
+      "7515",
+      "7552"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7553,
-    "name": "Técnicas de Producción de Software II",
-    "credits": 4,
-    "dependencies": [
-      7551
+    "codigo": "7553",
+    "nombre": "Técnicas de Producción de Software II",
+    "creditos": 4,
+    "correlativas": [
+      "7551"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7554,
-    "name": "Técnicas de Producción de Software III",
-    "credits": 4,
-    "dependencies": [
-      7548,
-      7553
+    "codigo": "7554",
+    "nombre": "Técnicas de Producción de Software III",
+    "creditos": 4,
+    "correlativas": [
+      "7548",
+      "7553"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7555,
-    "name": "Taller de Desarrollo de Proyectos III",
-    "credits": 4,
-    "dependencies": [
-      7546,
-      7547,
-      7548
+    "codigo": "7555",
+    "nombre": "Taller de Desarrollo de Proyectos III",
+    "creditos": 4,
+    "correlativas": [
+      "7546",
+      "7547",
+      "7548"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7556,
-    "name": "Organización de la Implantación y el Mantenimiento",
-    "credits": 6,
-    "dependencies": [
-      7546,
-      7548
+    "codigo": "7556",
+    "nombre": "Organización de la Implantación y el Mantenimiento",
+    "creditos": 6,
+    "correlativas": [
+      "7546",
+      "7548"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7557,
-    "name": "Modelos de Proceso de Desarrollo",
-    "credits": 4,
-    "dependencies": [
-      7546,
-      7548
+    "codigo": "7557",
+    "nombre": "Modelos de Proceso de Desarrollo",
+    "creditos": 4,
+    "correlativas": [
+      "7546",
+      "7548"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7558,
-    "name": "Evaluación de Proyectos y Manejo de Riesgos",
-    "credits": 4,
-    "dependencies": [
-      7546,
-      7548
+    "codigo": "7558",
+    "nombre": "Evaluación de Proyectos y Manejo de Riesgos",
+    "creditos": 4,
+    "correlativas": [
+      "7546",
+      "7548"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7562,
-    "name": "Técnicas de Programación Concurrente II",
-    "credits": 4,
-    "dependencies": [
-      7559
+    "codigo": "7562",
+    "nombre": "Técnicas de Programación Concurrente II",
+    "creditos": 4,
+    "correlativas": [
+      "7559"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7563,
-    "name": "Sistemas Distribuidos II",
-    "credits": 4,
-    "dependencies": [
-      7574
+    "codigo": "7563",
+    "nombre": "Sistemas Distribuidos II",
+    "creditos": 4,
+    "correlativas": [
+      "7574"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7564,
-    "name": "Sistemas Multimediales",
-    "credits": 4,
-    "dependencies": [
-      6674,
-      7574
+    "codigo": "7564",
+    "nombre": "Sistemas Multimediales",
+    "creditos": 4,
+    "correlativas": [
+      "6674",
+      "7574"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7569,
-    "name": "Sistemas Automáticos de Diagnóstico y Detección de Fallas II",
-    "credits": 6,
-    "dependencies": [
-      7567
+    "codigo": "7569",
+    "nombre": "Sistemas Automáticos de Diagnóstico y Detección de Fallas II",
+    "creditos": 6,
+    "correlativas": [
+      "7567"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7570,
-    "name": "Sistemas de Programación no convencional de Robots",
-    "credits": 6,
-    "dependencies": [
-      7550
+    "codigo": "7570",
+    "nombre": "Sistemas de Programación no convencional de Robots",
+    "creditos": 6,
+    "correlativas": [
+      "7550"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7571,
-    "name": "Seminario de Ingeniería en Informática I",
-    "credits": 3,
-    "dependencies": [
-      7507
+    "codigo": "7571",
+    "nombre": "Seminario de Ingeniería en Informática I",
+    "creditos": 3,
+    "correlativas": [
+      "7507"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7572,
-    "name": "Seminario de Ingeniería en Informática II",
-    "credits": 3,
-    "dependencies": [
-      7506,
-      7544
+    "codigo": "7572",
+    "nombre": "Seminario de Ingeniería en Informática II",
+    "creditos": 3,
+    "correlativas": [
+      "7506",
+      "7544"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7573,
-    "name": "Arquitectura de Software",
-    "credits": 4,
-    "dependencies": [
-      7507,
-      7509
+    "codigo": "7573",
+    "nombre": "Arquitectura de Software",
+    "creditos": 4,
+    "correlativas": [
+      "7507",
+      "7509"
     ],
-    "min_credits": 0
+    "min_creditos": 0
   },
   {
-    "number": 7801,
-    "name": "Idioma Inglés",
-    "credits": 4,
-    "dependencies": [],
-    "min_credits": 0
+    "codigo": "7801",
+    "nombre": "Idioma Inglés",
+    "creditos": 4,
+    "correlativas": [],
+    "min_creditos": 0
   },
   {
-    "number": 7802,
-    "name": "Idioma Alemán",
-    "credits": 4,
-    "dependencies": [],
-    "min_credits": 0
+    "codigo": "7802",
+    "nombre": "Idioma Alemán",
+    "creditos": 4,
+    "correlativas": [],
+    "min_creditos": 0
   },
   {
-    "number": 7803,
-    "name": "Idioma Francés",
-    "credits": 4,
-    "dependencies": [],
-    "min_credits": 0
+    "codigo": "7803",
+    "nombre": "Idioma Francés",
+    "creditos": 4,
+    "correlativas": [],
+    "min_creditos": 0
   },
   {
-    "number": 7804,
-    "name": "Idioma Italiano",
-    "credits": 4,
-    "dependencies": [],
-    "min_credits": 0
+    "codigo": "7804",
+    "nombre": "Idioma Italiano",
+    "creditos": 4,
+    "correlativas": [],
+    "min_creditos": 0
   },
   {
-    "number": 7805,
-    "name": "Idioma Portugués",
-    "credits": 4,
-    "dependencies": [],
-    "min_credits": 0
+    "codigo": "7805",
+    "nombre": "Idioma Portugués",
+    "creditos": 4,
+    "correlativas": [],
+    "min_creditos": 0
   }
 ]

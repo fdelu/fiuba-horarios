@@ -3,12 +3,12 @@ import json
 from bs4 import BeautifulSoup
 
 # Regex a utilizar
-NOMBRE_MATERIA = "Actividad: (.*) \("
+# NOMBRE_MATERIA = "Actividad: (.*) \("
 CODIGO_MATERIA = "\((\d\d\d\d)\)"
 CODIGO_CURSO = "Comisión: (CURSO:? ?)?([\w-]+)"
 CUPOS = r"(\d+) \/ \d+"
 HORARIOS = "(\d\d:\d\d) a (\d\d:\d\d)"
-PERIODO = "Período lectivo: (.*)"
+PERIODO = "Período lectivo: (.*) "
 DATA = r"kernel\.renderer\.on_arrival\((.*)\);"
 
 
@@ -24,26 +24,22 @@ def parse_html(html):
 
 
 def parse_periodo(periodo):
-    subjects = []
+    cursos = {}
     for materia in periodo.find_all("div", attrs={"class": "js-recuadro_actividad"}):
-        datos = parse_materia(materia)
-        cursos = []
+        codigo = parse_codigo_materia(materia)
+        cursos_materia = []
         for curso in materia.find_all("table"):
             curso = parse_curso(curso)
             if curso:
-                cursos.append(curso)
+                cursos_materia.append({"materia": codigo, **curso})
+        cursos[codigo] = cursos_materia
 
-        datos["cursos"] = cursos
-        subjects.append(datos)
-
-    return subjects
+    return cursos
 
 
-def parse_materia(materia):
+def parse_codigo_materia(materia):
     header = materia.find("h4").text
-    nombre = re.search(NOMBRE_MATERIA, header)[1]
-    codigo = re.search(CODIGO_MATERIA, header)[1]
-    return {"nombre": nombre, "numero": codigo}
+    return re.search(CODIGO_MATERIA, header)[1]
 
 
 def parse_curso(curso):
