@@ -14,7 +14,7 @@ Uso:
 
 ## Horarios
 
-La carpeta `horarios` contiene el código para descargar el plan de estudios desde el SIU y un archivo `data.json` con los horarios del primer y segundo cuatrimestre de 2022 de los cursos de la carrera de Ingeniería Informática (obtenidos con el mismo código, solamente agregándole los cursos de Compiladores y Tecnologías Emergentes que no se encuentran en el SIU).
+La carpeta `horarios` contiene el código para descargar el plan de estudios desde el SIU y un archivo `data.json` con los horarios de algunos cuatrimestres de los cursos de la carrera de Ingeniería Informática (obtenidos con el mismo código).
 
 Se decidió obtener los horarios desde el SIU y no desde `https://ofertahoraria.fi.uba.ar/` ya que el el SIU suele ser el primero en actualizarse, pudiendo el segundo demorar varios días en hacerlo. La desventaja es que requiere autenticarse con las credenciales de un alumno de la carrera de la que se busca obtener la oferta horaria.
 
