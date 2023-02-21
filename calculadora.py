@@ -7,26 +7,28 @@ from threading import Lock
 DIR = os.path.dirname(os.path.realpath(__file__))
 PATH_CURSOS = DIR + "/horarios/data.json"
 PATH_PLAN = DIR + "/plan/data.json"
-PERIODO = "2022 - 2do cuatrimestre"
 CREDITOS_CBC = 38
 
 with open(PATH_PLAN, "r", encoding="utf8") as f:
-    PLAN = json.load(f)
-    PLAN = {x["codigo"]: x for x in PLAN["materias"]}
+    plan = json.load(f)
+    plan = {x["codigo"]: x for x in plan["materias"]}
 
 with open(PATH_CURSOS, "r", encoding="utf8") as f:
-    CURSOS = json.load(f)[PERIODO]
+    horarios = json.load(f)
+    periodo = max(horarios.keys())
+    print(f"Utilizando horarios del periodo '{periodo}'")
+    horarios = horarios[periodo]
 
 
 def get_creditos(materias):
     creditos = CREDITOS_CBC
     for materia in materias:
-        creditos += PLAN[materia]["creditos"]
+        creditos += plan[materia]["creditos"]
     return creditos
 
 
 def es_idioma(materia):
-    return "idioma" in PLAN[materia]["nombre"].lower()
+    return "idioma" in plan[materia]["nombre"].lower()
 
 
 def get_materias_posibles(materias_aprobadas):
@@ -35,7 +37,7 @@ def get_materias_posibles(materias_aprobadas):
     aprobo_idioma = any(es_idioma(materia) for materia in materias_aprobadas)
 
     posibles = set()
-    for codigo, info in PLAN.items():
+    for codigo, info in plan.items():
         if not all(map(lambda x: x in materias_aprobadas, info["correlativas"])) \
                 or info["min_creditos"] > creditos \
                 or codigo in materias_aprobadas \
@@ -47,7 +49,7 @@ def get_materias_posibles(materias_aprobadas):
 
 
 def get_materias_disponibles():
-    return CURSOS.keys()
+    return horarios.keys()
 
 
 def _horas_overlap(horas_1, horas_2):
@@ -64,7 +66,7 @@ def _comprobar_cursos(cursos):
 
 
 def _comprobar_materias(materias, lock, posibles):
-    for cursos in product(*map(lambda x: CURSOS[x], materias)):
+    for cursos in product(*map(lambda x: horarios[x], materias)):
         if not _comprobar_cursos(cursos):
             lock.acquire()
             posibles.append(list(zip(materias, cursos)))
