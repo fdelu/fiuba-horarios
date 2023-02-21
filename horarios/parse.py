@@ -57,8 +57,14 @@ def parse_curso(curso):
     for entry in curso.find_all("tr", attrs={"class": "js-dia"}):
         dia = entry["dia_sem"].lower()
         horas = horarios.get(dia, [])
-        inicio, fin = re.search(
-            HORARIOS, entry.text).groups()
+        
+        horario_dia = re.search(
+            HORARIOS, entry.text)
+        if horario_dia is None:
+            # Horario sin definir
+            continue
+
+        inicio, fin = horario_dia.groups()
         horas.append({"inicio": inicio, "fin": fin})
         horarios[dia] = horas
 
